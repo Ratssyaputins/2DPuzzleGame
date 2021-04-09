@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class GameEvents : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public delegate void UpdateSquareNumber(int number);
+    public static event UpdateSquareNumber OnUpdateSquareNumber;
+    
+    public static void UpdateSquareNumberMethod(int number)
     {
-        
+        if(OnUpdateSquareNumber ! =null)
+        OnUpdateSquareNumber(number);
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    public delegate void SquareSelected(int Square_index);
+    public static event SquareSelected OnSquareSelected;
+    
+    public static void SquareSelectedMethod(int square_index)
     {
-        
+        if (OnSquareSelected !=null)
+        OnSquareSelected(square_index);
     }
+    
+    
 }
