@@ -21,7 +21,7 @@ public class SudokuGrid : MonoBehaviour
         if (grid_square.GetComponent<GridSquare>() == null)
             Debug.LogError("ThisGameObject need tot have a Gridsquare script attached");
         CreateGrid();  
-        SetGridNumber("Easy");  
+        SetGridNumber(GameSettings.Instance.GetGameMode());  
     }
 
     // Update is called once per frame
@@ -42,16 +42,20 @@ public class SudokuGrid : MonoBehaviour
   
     private void spawnGridSquares()
     {
-            for (int row = 0; row < rows; row++)
+        // 0,1,2,3,4,5,6,
+        //7,8, ...
+        int square_index = 0;
+        for (int row = 0; row < rows; row++)
         {
             for (int column = 0; column < columns; column++)
             {
-                grid_squares_.Add(Instantiate(grid_square) as GameObject); 
-
+                grid_squares_.Add(Instantiate(grid_square) as GameObject);
+                grid_squares_[grid_squares_.Count - 1].GetComponent<GridSquare>().SetSquareIndex(square_index);
                 grid_squares_[grid_squares_.Count - 1].transform.parent = this.transform;
 
                 grid_squares_[grid_squares_.Count - 1].transform.localScale = new Vector3(square_scale, square_scale, square_scale);
-               
+
+                square_index++;
             }
         }
 
