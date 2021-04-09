@@ -10,5 +10,42 @@ public class MenuButtons : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
+    public void LoadEasyGame(string name)
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.EASY);
 
+        SceneManager.LoadScene(name);
+    }
+
+    public void LoadMediumGame(string name)
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.MEDIUM);
+
+        SceneManager.LoadScene(name);
+    }
+
+    public void LoadHardGame(string name)
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.HARD);
+
+        SceneManager.LoadScene(name);
+    }
+
+    public void LoadVeryHardGame(string name)
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.VERYHARD);
+
+        SceneManager.LoadScene(name);
+    }
+
+
+    public void ActiveObject(GameObject obj)
+    {
+        obj.SetActive(true);
+    }
+
+    public void DeActiveObject(GameObject obj)
+    {
+        obj.SetActive(false);
+    }
 }
