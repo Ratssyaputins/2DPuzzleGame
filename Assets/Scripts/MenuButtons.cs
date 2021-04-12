@@ -34,7 +34,7 @@ public class MenuButtons : MonoBehaviour
 
     public void LoadVeryHardGame(string name)
     {
-        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.VERYHARD);
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.VERY_HARD);
 
         SceneManager.LoadScene(name);
     }

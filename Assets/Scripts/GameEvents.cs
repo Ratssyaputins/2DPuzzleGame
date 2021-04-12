@@ -9,7 +9,7 @@ public class GameEvents : MonoBehaviour
     
     public static void UpdateSquareNumberMethod(int number)
     {
-        if(OnUpdateSquareNumber ! =null)
+        if(OnUpdateSquareNumber !=null)
         OnUpdateSquareNumber(number);
     }
     
@@ -29,5 +29,14 @@ public class GameEvents : MonoBehaviour
     {
         if (OnWrongNumber != null)
             OnWrongNumber();
+    }
+
+    public delegate void GameOver();
+    public static event GameOver OnGameOver;
+
+    public static void OnGameOverMethod()
+    {
+        if (OnGameOver != null)
+            OnGameOver();
     }
 }

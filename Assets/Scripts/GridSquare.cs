@@ -96,7 +96,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
             }
             else
             {
-                has_default_value_ == true;
+                has_default_value_ = true;
                 var colors = this.colors;
                 colors.normalColor = Color.white;
                 this.colors = colors;
