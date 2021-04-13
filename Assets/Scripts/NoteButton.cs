@@ -4,17 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class NoteButton : MonoBehaviour
+public class NoteButton : Selectable, IPointerClickHandler
 {
+    public Sprite on_image;
+    public Sprite off_image;
+
+    private bool active_;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        active_ = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        
+        active_ = !active_;
+        if (active_)
+            GetComponent<Image>().sprite = on_image;
+        else
+            GetComponent<Image>().sprite = on_image;
+        GameEvents.OnNotesActiveMethod(active_);
     }
 }
