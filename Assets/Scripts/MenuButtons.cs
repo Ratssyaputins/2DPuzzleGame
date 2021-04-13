@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-    
+
     public void LoadScene(string name)
     {
         SceneManager.LoadScene(name);
@@ -48,5 +48,9 @@ public class MenuButtons : MonoBehaviour
     public void DeActiveObject(GameObject obj)
     {
         obj.SetActive(false);
+    }
+    public void SetPause(bool paused)
+    {
+        GameSettings.Instance.SetPaused(paused);
     }
 }

@@ -37,7 +37,8 @@ public class Clock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(stop_clock_ == false)
+        if (GameSettings.Instance.GetPaused() == false
+            && stop_clock_ == false)
         {
             delta_time += Time.deltaTime;
             TimeSpan span = TimeSpan.FromSeconds(delta_time);

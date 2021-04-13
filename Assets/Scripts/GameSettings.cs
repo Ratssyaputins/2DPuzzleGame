@@ -17,6 +17,7 @@ public class GameSettings : MonoBehaviour
 
     private void Awake()
     {
+        _Paused = false;
         if (Instance == null)
         {
             DontDestroyOnLoad(this);
@@ -28,6 +29,10 @@ public class GameSettings : MonoBehaviour
     }
 
     private EGameMode _GameMode;
+    private bool _Paused = false;
+
+    public void SetPaused(bool paused ) { _Paused = true; }
+    public bool GetPaused() { return _Paused; }
 
     // Start is called before the first frame update
     void Start()
