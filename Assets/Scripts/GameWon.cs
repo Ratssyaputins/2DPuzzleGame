@@ -5,15 +5,30 @@ using UnityEngine.UI;
 
 public class GameWon : MonoBehaviour
 {
+
+    public GameObject WinPopup;
+    public Text ClockText;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        WinPopup.SetActive(false);
+        ClockText.text = Clock.instance.GetCurrentTimeText().text;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnBoardCompleted()
     {
-        
+        WinPopup.SetActive(true);
+        ClockText.text = Clock.instance.GetCurrentTimeText().text;
+    }
+
+    private void OnEnable()
+    {
+        GameEvents.OnBoardcompleted += OnBoardCompleted;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnBoardcompleted -= OnBoardCompleted;
     }
 }

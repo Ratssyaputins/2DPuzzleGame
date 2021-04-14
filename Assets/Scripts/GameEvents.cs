@@ -50,4 +50,35 @@ public class GameEvents : MonoBehaviour
         if (OnNotesActive != null)
             OnNotesActive(active);
     }
+
+    //****************************************
+
+    public delegate void ClearNumber();
+
+    public static event ClearNumber OnClearNumber;
+
+    public static void OnClearNumberMethod()
+    {
+        if (OnClearNumber!= null) 
+            OnClearNumber();
+    }
+
+
+    //****************************************
+
+    public delegate void Boardcompleted();
+
+    public static event Boardcompleted OnBoardcompleted;
+
+    public static void OnBoardcompletedMethod()
+    {
+        if (OnBoardcompleted != null)
+            OnBoardcompleted();
+    }
+
+    //****************************************
+
+
+
+    //****************************************
 }

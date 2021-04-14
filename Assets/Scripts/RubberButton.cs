@@ -4,17 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class RubberButton : Selectable//,IPointerClickHandler //pressf12
+public class RubberButton : Selectable, IPointerClickHandler
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameEvents.OnClearNumberMethod();
     }
 }
