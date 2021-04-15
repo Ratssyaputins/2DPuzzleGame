@@ -10,6 +10,7 @@ public class SudokuGrid : MonoBehaviour
     public GameObject grid_square;  
     public Vector2 start_position = new Vector2(0.0f, 0.0f);
     public float square_scale = 1.0f;
+
     public float square_gap = 0.1f;
     public Color line_highlight_color = Color.red;
 
