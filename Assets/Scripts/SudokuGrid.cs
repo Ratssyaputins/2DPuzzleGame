@@ -21,9 +21,32 @@ public class SudokuGrid : MonoBehaviour
     void Start()
     {
         if (grid_square.GetComponent<GridSquare>() == null)
-            Debug.LogError("ThisGameObject need tot have a Gridsquare script attached");
-        CreateGrid();  
-        SetGridNumber(GameSettings.Instance.GetGameMode());  
+            Debug.LogError("This GameObject need tot have a Gridsquare script attached !");
+        CreateGrid();
+
+        if (GameSettings.Instance.GetContinuePreviousGame())
+            SetGridFormFile();
+        else
+            SetGridNumber(GameSettings.Instance.GetGameMode());
+
+    }
+
+    void SetGridFormFile()
+    {
+        string level = GameSettings.Instance.GetGameMode();
+        selected_grid_data = Config.ReadGameBoardLevel();
+        var data = Config.ReadGridData();
+
+        setGridSquareData(data);
+        SetGridNotes(Config.GetGridNotes());
+    }
+
+    private void SetGridNotes(Dictionary<int, List<int>> notes)
+    {
+        foreach(var note in notes)
+        {
+            grid_squares_[note.Key].GetComponent<GridSquare>().SetGridNotes(note.Value);
+        }
     }
 
     // Update is called once per frame
@@ -130,13 +153,40 @@ public class SudokuGrid : MonoBehaviour
     private void OnEnable()
     {
         GameEvents.OnSquareSelected += OnSquareSelected;
-        GameEvents.OnUpdateSquareNumber  += CheckBoardCompleted;
+        GameEvents.OnCheckBoardCompleted  += CheckBoardCompleted;
     }
+
     private void OnDisable()
     {
 
         GameEvents.OnSquareSelected -= OnSquareSelected;
-        GameEvents.OnUpdateSquareNumber -= CheckBoardCompleted;
+        GameEvents.OnCheckBoardCompleted -= CheckBoardCompleted;
+
+        //************************
+        var solved_data = SudokuData.Instance.sudoku_game[GameSettings.Instance.GetGameMode()][selected_grid_data].solved_data;
+        int[] unsolved_data = new int[81];
+        Dictionary<string, List<string>> grid_notes = new Dictionary<string, List<string>>();
+
+        for (int i = 0; i < grid_squares_.Count; i++)
+        {
+            var comp = grid_squares_[i].GetComponent<GridSquare>();
+            unsolved_data[i] = comp.GetSquareNumber();
+            string key = "square_note:" + i.ToString();
+            grid_notes.Add(key, comp.GetSquareNotes());
+        }
+        SudokuData.SudokuBoardData current_game_data = new SudokuData.SudokuBoardData(unsolved_data, solved_data);
+
+        if (GameSettings.Instance.GetExitAfterWon() == false)
+        {//do not save the data when exit after complteed board
+            Config.SaveBoardData(current_game_data, GameSettings.Instance.GetGameMode(),
+                selected_grid_data,
+                Lives.instance.GetErrorNumber(),
+                grid_notes);
+        }
+        else 
+            Config.DeleteDataFile();
+
+        GameSettings.Instance.SetExitAfterWon(false);
     }
 
     private void SetSquaresColor(int[] data, Color col)
@@ -164,7 +214,7 @@ public class SudokuGrid : MonoBehaviour
         SetSquaresColor(square, line_highlight_color);
     }
    
-    private void CheckBoardCompleted(int number)
+    private void CheckBoardCompleted()
     {
         foreach(var square in grid_squares_)
         {
@@ -184,7 +234,7 @@ public class SudokuGrid : MonoBehaviour
             var comp = square.GetComponent<GridSquare>();
             comp.SetCorrectNumber();
         }
-        CheckBoardCompleted(0);
+        CheckBoardCompleted();
     }
     
 }

@@ -18,10 +18,8 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
     private bool has_default_value_ = false;
     private bool has_wrong_value_ = false;
 
-    public bool IsCorrectNumberSet()
-    {
-        return number_ == correct_number_;
-    }
+    public int GetSquareNumber() { return number_; }
+    public bool IsCorrectNumberSet() { return number_ == correct_number_;}
 
     public bool HasWrongValue() { return has_wrong_value_; }
     public void SetHasDefaultValue(bool has_default) { has_default_value_ = has_default; }
@@ -39,6 +37,13 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
     {
         correct_number_ = number;
         has_wrong_value_ = false;
+
+        if(number_ !=0 && number_ != correct_number_ )
+        {
+            has_wrong_value_ = true;
+            SetSquareColour(Color.red);
+
+        }
     }
 
     public void SetCorrectNumber()
@@ -54,7 +59,10 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         selected_ = false;
         note_active = false;
 
-        SetNoteNumberValue(0);
+        if (GameSettings.Instance.GetContinuePreviousGame() == false)
+            SetNoteNumberValue(0);
+        else
+            SetClearEmptyNotes();
     }
 
     public List<string> GetSquareNotes()

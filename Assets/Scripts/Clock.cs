@@ -24,6 +24,12 @@ public class Clock : MonoBehaviour
         instance = this;
 
         textClock = GetComponent<Text>();
+
+        if (GameSettings.Instance.GetContinuePreviousGame())
+            delta_time = Config.ReadGameTime();
+        else 
+            delta_time = 0;
+
         delta_time = 0;
 
     }
@@ -70,6 +76,11 @@ public class Clock : MonoBehaviour
         GameEvents.OnGameOver -= OnGameOver;
     }
     
+    public static string GetCurrentTime()
+    {
+        return instance.delta_time.ToString();
+    }
+
     public Text GetCurrentTimeText()
     {
         return textClock;
