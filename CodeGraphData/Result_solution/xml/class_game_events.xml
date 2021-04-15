@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_events" kind="class" prot="public">
+    <compoundname>GameEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_game_events_1a239b3f22541d5c908b5497c8595634c1" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1ae8756fcfb62ab01c63620a2bb87ca1a7" kindref="member">CheckBoardCompleted</ref></type>
+        <definition>CheckBoardCompleted GameEvents.OnCheckBoardCompleted</definition>
+        <argsstring></argsstring>
+        <name>OnCheckBoardCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="8" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_game_events_1a14f1a039482f21d9443ec36b9d4136bb" compoundref="_game_events_8cs" startline="10" endline="14">CheckBoardCompletedMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1afd21e067f8862159b8dbf84081307065" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1a0f97105d04b942b7904b3c961b4db4e6" kindref="member">UpdateSquareNumber</ref></type>
+        <definition>UpdateSquareNumber GameEvents.OnUpdateSquareNumber</definition>
+        <argsstring></argsstring>
+        <name>OnUpdateSquareNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="17" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_game_events_1ab1e468f7d6afa8594f59bd9a2ccb7397" compoundref="_game_events_8cs" startline="19" endline="23">UpdateSquareNumberMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1a4e4395058eb98a2d781f69d7e19801d1" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1a5371ee77dcc12080eb51522a2a760aaf" kindref="member">SquareSelected</ref></type>
+        <definition>SquareSelected GameEvents.OnSquareSelected</definition>
+        <argsstring></argsstring>
+        <name>OnSquareSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="26" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_game_events_1a1f37cb16fc75d336ad0f9fabf9156ab2" compoundref="_game_events_8cs" startline="28" endline="32">SquareSelectedMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1ad92c63228b171cdae60c5223522feb49" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1afbea2fa030a07a6dc09491e998465a50" kindref="member">WrongNumber</ref></type>
+        <definition>WrongNumber GameEvents.OnWrongNumber</definition>
+        <argsstring></argsstring>
+        <name>OnWrongNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="35" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_game_events_1a9d694d5d01c13657bb34dcb5510ab195" compoundref="_game_events_8cs" startline="37" endline="41">OnWrongNumberMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1a6420dd08bab5a2f478d7926ad4eba6c4" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1a6e1f712e069f2e5e0637a71be97bcc42" kindref="member">GameOver</ref></type>
+        <definition>GameOver GameEvents.OnGameOver</definition>
+        <argsstring></argsstring>
+        <name>OnGameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="44" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_game_events_1adf2743a9636f3902a0c7a569b7b266cc" compoundref="_game_events_8cs" startline="46" endline="50">OnGameOverMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1a91a8da4f069dcfef80b0820f09461400" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1aa56e4151528cd941b8e89853989b2ead" kindref="member">NotesActive</ref></type>
+        <definition>NotesActive GameEvents.OnNotesActive</definition>
+        <argsstring></argsstring>
+        <name>OnNotesActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="55" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_game_events_1adb56e47f9986e1bcc897b60712d40000" compoundref="_game_events_8cs" startline="57" endline="61">OnNotesActiveMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1af9fa0c2165b62f7ffd025728c7d475dd" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1a719d313fa58bbcb583fbc6c129613c59" kindref="member">ClearNumber</ref></type>
+        <definition>ClearNumber GameEvents.OnClearNumber</definition>
+        <argsstring></argsstring>
+        <name>OnClearNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="67" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_game_events_1ab51eba31c28e21ec3112f50aee94d284" compoundref="_game_events_8cs" startline="69" endline="73">OnClearNumberMethod</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_game_events_1a7e12c525c5c2ce3858357ee70902c5a8" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_game_events_1abc4c62d128ea59efefb23441c600b848" kindref="member">Boardcompleted</ref></type>
+        <definition>Boardcompleted GameEvents.OnBoardcompleted</definition>
+        <argsstring></argsstring>
+        <name>OnBoardcompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="80" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_game_events_1a0331f0a7dbd16bb7ee832f0cf5591025" compoundref="_game_events_8cs" startline="82" endline="86">OnBoardcompletedMethod</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_events_1ae8756fcfb62ab01c63620a2bb87ca1a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.CheckBoardCompleted</definition>
+        <argsstring>()</argsstring>
+        <name>CheckBoardCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a0f97105d04b942b7904b3c961b4db4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.UpdateSquareNumber</definition>
+        <argsstring>(int number)</argsstring>
+        <name>UpdateSquareNumber</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a5371ee77dcc12080eb51522a2a760aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.SquareSelected</definition>
+        <argsstring>(int Square_index)</argsstring>
+        <name>SquareSelected</name>
+        <param>
+          <type>int</type>
+          <declname>Square_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1afbea2fa030a07a6dc09491e998465a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.WrongNumber</definition>
+        <argsstring>()</argsstring>
+        <name>WrongNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a6e1f712e069f2e5e0637a71be97bcc42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.GameOver</definition>
+        <argsstring>()</argsstring>
+        <name>GameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1aa56e4151528cd941b8e89853989b2ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.NotesActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>NotesActive</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a719d313fa58bbcb583fbc6c129613c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.ClearNumber</definition>
+        <argsstring>()</argsstring>
+        <name>ClearNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1abc4c62d128ea59efefb23441c600b848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GameEvents.Boardcompleted</definition>
+        <argsstring>()</argsstring>
+        <name>Boardcompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="78" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_events_1a14f1a039482f21d9443ec36b9d4136bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.CheckBoardCompletedMethod</definition>
+        <argsstring>()</argsstring>
+        <name>CheckBoardCompletedMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="10" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="10" bodyend="14"/>
+        <references refid="class_game_events_1a239b3f22541d5c908b5497c8595634c1" compoundref="_game_events_8cs" startline="8">OnCheckBoardCompleted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1ab1e468f7d6afa8594f59bd9a2ccb7397" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.UpdateSquareNumberMethod</definition>
+        <argsstring>(int number)</argsstring>
+        <name>UpdateSquareNumberMethod</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="19" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="19" bodyend="23"/>
+        <references refid="class_game_events_1afd21e067f8862159b8dbf84081307065" compoundref="_game_events_8cs" startline="17">OnUpdateSquareNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a1f37cb16fc75d336ad0f9fabf9156ab2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.SquareSelectedMethod</definition>
+        <argsstring>(int square_index)</argsstring>
+        <name>SquareSelectedMethod</name>
+        <param>
+          <type>int</type>
+          <declname>square_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="28" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="28" bodyend="32"/>
+        <references refid="class_game_events_1a4e4395058eb98a2d781f69d7e19801d1" compoundref="_game_events_8cs" startline="26">OnSquareSelected</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a9d694d5d01c13657bb34dcb5510ab195" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.OnWrongNumberMethod</definition>
+        <argsstring>()</argsstring>
+        <name>OnWrongNumberMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="37" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="37" bodyend="41"/>
+        <references refid="class_game_events_1ad92c63228b171cdae60c5223522feb49" compoundref="_game_events_8cs" startline="35">OnWrongNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1adf2743a9636f3902a0c7a569b7b266cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.OnGameOverMethod</definition>
+        <argsstring>()</argsstring>
+        <name>OnGameOverMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="46" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="46" bodyend="50"/>
+        <references refid="class_game_events_1a6420dd08bab5a2f478d7926ad4eba6c4" compoundref="_game_events_8cs" startline="44">OnGameOver</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1adb56e47f9986e1bcc897b60712d40000" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.OnNotesActiveMethod</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>OnNotesActiveMethod</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="57" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="57" bodyend="61"/>
+        <references refid="class_game_events_1a91a8da4f069dcfef80b0820f09461400" compoundref="_game_events_8cs" startline="55">OnNotesActive</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1ab51eba31c28e21ec3112f50aee94d284" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.OnClearNumberMethod</definition>
+        <argsstring>()</argsstring>
+        <name>OnClearNumberMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="69" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="69" bodyend="73"/>
+        <references refid="class_game_events_1af9fa0c2165b62f7ffd025728c7d475dd" compoundref="_game_events_8cs" startline="67">OnClearNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_events_1a0331f0a7dbd16bb7ee832f0cf5591025" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GameEvents.OnBoardcompletedMethod</definition>
+        <argsstring>()</argsstring>
+        <name>OnBoardcompletedMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="82" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="82" bodyend="86"/>
+        <references refid="class_game_events_1a7e12c525c5c2ce3858357ee70902c5a8" compoundref="_game_events_8cs" startline="80">OnBoardcompleted</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>GameEvents</label>
+        <link refid="class_game_events"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>GameEvents</label>
+        <link refid="class_game_events"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" line="6" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameEvents.cs" bodystart="5" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_game_events_1abc4c62d128ea59efefb23441c600b848" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>Boardcompleted</name></member>
+      <member refid="class_game_events_1ae8756fcfb62ab01c63620a2bb87ca1a7" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>CheckBoardCompleted</name></member>
+      <member refid="class_game_events_1a14f1a039482f21d9443ec36b9d4136bb" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>CheckBoardCompletedMethod</name></member>
+      <member refid="class_game_events_1a719d313fa58bbcb583fbc6c129613c59" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>ClearNumber</name></member>
+      <member refid="class_game_events_1a6e1f712e069f2e5e0637a71be97bcc42" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>GameOver</name></member>
+      <member refid="class_game_events_1aa56e4151528cd941b8e89853989b2ead" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>NotesActive</name></member>
+      <member refid="class_game_events_1a7e12c525c5c2ce3858357ee70902c5a8" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnBoardcompleted</name></member>
+      <member refid="class_game_events_1a0331f0a7dbd16bb7ee832f0cf5591025" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnBoardcompletedMethod</name></member>
+      <member refid="class_game_events_1a239b3f22541d5c908b5497c8595634c1" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnCheckBoardCompleted</name></member>
+      <member refid="class_game_events_1af9fa0c2165b62f7ffd025728c7d475dd" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnClearNumber</name></member>
+      <member refid="class_game_events_1ab51eba31c28e21ec3112f50aee94d284" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnClearNumberMethod</name></member>
+      <member refid="class_game_events_1a6420dd08bab5a2f478d7926ad4eba6c4" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnGameOver</name></member>
+      <member refid="class_game_events_1adf2743a9636f3902a0c7a569b7b266cc" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnGameOverMethod</name></member>
+      <member refid="class_game_events_1a91a8da4f069dcfef80b0820f09461400" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnNotesActive</name></member>
+      <member refid="class_game_events_1adb56e47f9986e1bcc897b60712d40000" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnNotesActiveMethod</name></member>
+      <member refid="class_game_events_1a4e4395058eb98a2d781f69d7e19801d1" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnSquareSelected</name></member>
+      <member refid="class_game_events_1afd21e067f8862159b8dbf84081307065" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnUpdateSquareNumber</name></member>
+      <member refid="class_game_events_1ad92c63228b171cdae60c5223522feb49" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnWrongNumber</name></member>
+      <member refid="class_game_events_1a9d694d5d01c13657bb34dcb5510ab195" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>OnWrongNumberMethod</name></member>
+      <member refid="class_game_events_1a5371ee77dcc12080eb51522a2a760aaf" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>SquareSelected</name></member>
+      <member refid="class_game_events_1a1f37cb16fc75d336ad0f9fabf9156ab2" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>SquareSelectedMethod</name></member>
+      <member refid="class_game_events_1a0f97105d04b942b7904b3c961b4db4e6" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>UpdateSquareNumber</name></member>
+      <member refid="class_game_events_1ab1e468f7d6afa8594f59bd9a2ccb7397" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>UpdateSquareNumberMethod</name></member>
+      <member refid="class_game_events_1afbea2fa030a07a6dc09491e998465a50" prot="public" virt="non-virtual"><scope>GameEvents</scope><name>WrongNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

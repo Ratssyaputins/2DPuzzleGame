@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sudoku_data_1_1_sudoku_board_data" kind="struct" prot="public">
+    <compoundname>SudokuData::SudokuBoardData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sudoku_data_1_1_sudoku_board_data_1ac9663e8d95ea1fe736e2b78ff8e9a806" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] SudokuData.SudokuBoardData.unsolved_data</definition>
+        <argsstring></argsstring>
+        <name>unsolved_data</name>
+        <briefdescription>
+<para>Defines the unsolved_data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="907" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sudoku_data_1_1_sudoku_board_data_1a5362b69395857b1831f722ee21bee087" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] SudokuData.SudokuBoardData.solved_data</definition>
+        <argsstring></argsstring>
+        <name>solved_data</name>
+        <briefdescription>
+<para>Defines the solved_data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="912" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sudoku_data_1_1_sudoku_board_data_1a993f4da27646a9075116c6a50e6a748b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SudokuData.SudokuBoardData.SudokuBoardData</definition>
+        <argsstring>(int[] unsolved, int[] solved)</argsstring>
+        <name>SudokuBoardData</name>
+        <param>
+          <type>int[]</type>
+          <declname>unsolved</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>solved</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the  class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unsolved</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unsolvedint[].</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>solved</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The solvedint[].</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="919" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="919" bodyend="923"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines the <ref refid="struct_sudoku_data_1_1_sudoku_board_data" kindref="compound">SudokuBoardData</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="903" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="902" bodyend="924"/>
+    <listofallmembers>
+      <member refid="struct_sudoku_data_1_1_sudoku_board_data_1a5362b69395857b1831f722ee21bee087" prot="public" virt="non-virtual"><scope>SudokuData::SudokuBoardData</scope><name>solved_data</name></member>
+      <member refid="struct_sudoku_data_1_1_sudoku_board_data_1a993f4da27646a9075116c6a50e6a748b" prot="public" virt="non-virtual"><scope>SudokuData::SudokuBoardData</scope><name>SudokuBoardData</name></member>
+      <member refid="struct_sudoku_data_1_1_sudoku_board_data_1ac9663e8d95ea1fe736e2b78ff8e9a806" prot="public" virt="non-virtual"><scope>SudokuData::SudokuBoardData</scope><name>unsolved_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

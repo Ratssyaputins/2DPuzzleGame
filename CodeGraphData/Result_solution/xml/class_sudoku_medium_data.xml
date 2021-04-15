@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sudoku_medium_data" kind="class" prot="public">
+    <compoundname>SudokuMediumData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sudoku_medium_data_1a7bd294971d83daef40c79be587404722" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="struct_sudoku_data_1_1_sudoku_board_data" kindref="compound">SudokuData.SudokuBoardData</ref> &gt;</type>
+        <definition>static List&lt;SudokuData.SudokuBoardData&gt; SudokuMediumData.getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <briefdescription>
+<para>The getData. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The List{SudokuData.SudokuBoardData}.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="235" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="235" bodyend="443"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines the <ref refid="class_sudoku_medium_data" kindref="compound">SudokuMediumData</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="183">
+        <label>SudokuMediumData</label>
+        <link refid="class_sudoku_medium_data"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="185">
+        <label>SudokuMediumData</label>
+        <link refid="class_sudoku_medium_data"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="230" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="229" bodyend="444"/>
+    <listofallmembers>
+      <member refid="class_sudoku_medium_data_1a7bd294971d83daef40c79be587404722" prot="public" virt="non-virtual"><scope>SudokuMediumData</scope><name>getData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

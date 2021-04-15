@@ -130,6 +130,10 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
             number_text.GetComponent<Text>().text = " ";
         else number_text.GetComponent<Text>().text = number_.ToString();
 
+        if(has_default_value_)
+        {
+            number_text.GetComponent<Text>().fontStyle = FontStyle.Bold;
+        }
     }
 
     public void SetNumber(int number)
@@ -156,6 +160,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         GameEvents.OnSquareSelected += OnSquareSelected;
         GameEvents.OnNotesActive += OnNotesActive;
         GameEvents.OnClearNumber += OnClearNumber;
+        GameEvents.OnGameOver += OnGameOver;
     }
 
 
@@ -165,6 +170,18 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         GameEvents.OnSquareSelected -= OnSquareSelected;
         GameEvents.OnNotesActive -= OnNotesActive;
         GameEvents.OnClearNumber -= OnClearNumber;
+        GameEvents.OnGameOver -= OnGameOver;
+    }
+
+    public void OnGameOver()
+    {
+        if (number_ != 0 && number_ != correct_number_)
+        {
+            has_wrong_value_ = false;
+            number_ = 0;
+            DisplayText();
+        }
+        SetSquareColour(Color.white);
     }
 
     public void OnClearNumber()
@@ -210,8 +227,8 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
                     this.colors = colors;
                 }
             }
-            
-            
+
+            GameEvents.CheckBoardCompletedMethod();
         }
     }
 

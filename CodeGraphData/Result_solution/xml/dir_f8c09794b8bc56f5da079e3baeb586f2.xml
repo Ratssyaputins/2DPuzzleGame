@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f8c09794b8bc56f5da079e3baeb586f2" kind="dir">
+    <compoundname>D:/GitHub/2DPuzzleGame/Assets</compoundname>
+    <innerdir refid="dir_1ee929367f56d7223e9728b37e9efee6">D:/GitHub/2DPuzzleGame/Assets/Scripts</innerdir>
+    <innerdir refid="dir_26604e6fdd3c006e1fe9592a10648c99">D:/GitHub/2DPuzzleGame/Assets/TextMesh Pro</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/"/>
+  </compounddef>
+</doxygen>

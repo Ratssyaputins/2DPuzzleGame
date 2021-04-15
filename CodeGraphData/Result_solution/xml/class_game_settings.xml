@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_settings" kind="class" prot="public">
+    <compoundname>GameSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883" prot="public" static="no">
+        <name>EGameMode</name>
+        <enumvalue id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a1c250a21210b7b88a14db9a0cbe71162" prot="public">
+          <name>NOT_SET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a6e5affbf5c08fef0e28c094856f94627" prot="public">
+          <name>EASY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883ac87f3be66ffc3c0d4249f1c2cc5f3cce" prot="public">
+          <name>MEDIUM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a7c144eae2e08db14c82e376603cc01f4" prot="public">
+          <name>HARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883ad14f968d0defca9dbe2bba9bd6da0f38" prot="public">
+          <name>VERY_HARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="8" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_game_settings" kindref="compound">GameSettings</ref></type>
+        <definition>GameSettings GameSettings.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="16" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_game_settings_1ac99457702064b89556723a19dc9f2984" compoundref="_game_settings_8cs" startline="18" endline="29">Awake</referencedby>
+        <referencedby refid="class_clock_1ab1819f42c2c1497d29d6a2cbeca49dec" compoundref="_clock_8cs" startline="19" endline="35">Clock.Awake</referencedby>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">SudokuGrid.OnDisable</referencedby>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">SudokuGrid.Start</referencedby>
+        <referencedby refid="class_lives_1ad70cc50f01705ed7907529d32ca123b4" compoundref="_lives_8cs" startline="25" endline="40">Lives.Start</referencedby>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">GridSquare.Start</referencedby>
+        <referencedby refid="class_clock_1a56c7e800fc1f0ebb8823541b9c74e55a" compoundref="_clock_8cs" startline="44" endline="58">Clock.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883" kindref="member">EGameMode</ref></type>
+        <definition>EGameMode GameSettings._GameMode</definition>
+        <argsstring></argsstring>
+        <name>_GameMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="31" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_game_settings_1a4bc630d8c9490a4cfbabf89118dbb5cf" compoundref="_game_settings_8cs" startline="84" endline="96">GetGameMode</referencedby>
+        <referencedby refid="class_game_settings_1ab8ec24275dd4168a0e691f0c14be04e9" compoundref="_game_settings_8cs" startline="70" endline="73">SetGameMode</referencedby>
+        <referencedby refid="class_game_settings_1ab7929820980cae610213033264d128c2" compoundref="_game_settings_8cs" startline="62" endline="67">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameSettings._continuePreviousGame</definition>
+        <argsstring></argsstring>
+        <name>_continuePreviousGame</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="32" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" compoundref="_game_settings_8cs" startline="52" endline="55">GetContinuePreviousGame</referencedby>
+        <referencedby refid="class_game_settings_1a8ec94008e5b14101a79be371987450d3" compoundref="_game_settings_8cs" startline="46" endline="50">SetContinuePreviousGame</referencedby>
+        <referencedby refid="class_game_settings_1a0ab18ef7d8a0e27b2404a0f75424b357" compoundref="_game_settings_8cs" startline="36" endline="40">SetExitAfterWon</referencedby>
+        <referencedby refid="class_game_settings_1ab7929820980cae610213033264d128c2" compoundref="_game_settings_8cs" startline="62" endline="67">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_settings_1aeaacb36be5b8bf791ddafb1b25d4a8f6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameSettings._exitAfterWon</definition>
+        <argsstring></argsstring>
+        <name>_exitAfterWon</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="33" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_game_settings_1a579460014a2eba6bc47b6aa7e9eac60c" compoundref="_game_settings_8cs" startline="42" endline="45">GetExitAfterWon</referencedby>
+        <referencedby refid="class_game_settings_1a0ab18ef7d8a0e27b2404a0f75424b357" compoundref="_game_settings_8cs" startline="36" endline="40">SetExitAfterWon</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameSettings._Paused</definition>
+        <argsstring></argsstring>
+        <name>_Paused</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="34" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_game_settings_1ac99457702064b89556723a19dc9f2984" compoundref="_game_settings_8cs" startline="18" endline="29">Awake</referencedby>
+        <referencedby refid="class_game_settings_1af4916f7a0a79666b73adc36858bc3dac" compoundref="_game_settings_8cs" startline="59" endline="59">GetPaused</referencedby>
+        <referencedby refid="class_game_settings_1a7cf0e4eb849f823d562102675953ed4d" compoundref="_game_settings_8cs" startline="58" endline="58">SetPaused</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_settings_1ac99457702064b89556723a19dc9f2984" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="18" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="18" bodyend="29"/>
+        <references refid="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" compoundref="_game_settings_8cs" startline="34">_Paused</references>
+        <references refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" compoundref="_game_settings_8cs" startline="16">Instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1ab7929820980cae610213033264d128c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="62" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="62" bodyend="67"/>
+        <references refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" compoundref="_game_settings_8cs" startline="32">_continuePreviousGame</references>
+        <references refid="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" compoundref="_game_settings_8cs" startline="31">_GameMode</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_settings_1a0ab18ef7d8a0e27b2404a0f75424b357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.SetExitAfterWon</definition>
+        <argsstring>(bool set)</argsstring>
+        <name>SetExitAfterWon</name>
+        <param>
+          <type>bool</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="36" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="36" bodyend="40"/>
+        <references refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" compoundref="_game_settings_8cs" startline="32">_continuePreviousGame</references>
+        <references refid="class_game_settings_1aeaacb36be5b8bf791ddafb1b25d4a8f6" compoundref="_game_settings_8cs" startline="33">_exitAfterWon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1a579460014a2eba6bc47b6aa7e9eac60c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameSettings.GetExitAfterWon</definition>
+        <argsstring>()</argsstring>
+        <name>GetExitAfterWon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="42" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="42" bodyend="45"/>
+        <references refid="class_game_settings_1aeaacb36be5b8bf791ddafb1b25d4a8f6" compoundref="_game_settings_8cs" startline="33">_exitAfterWon</references>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">SudokuGrid.OnDisable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1a8ec94008e5b14101a79be371987450d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.SetContinuePreviousGame</definition>
+        <argsstring>(bool continue_game)</argsstring>
+        <name>SetContinuePreviousGame</name>
+        <param>
+          <type>bool</type>
+          <declname>continue_game</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="46" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="46" bodyend="50"/>
+        <references refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" compoundref="_game_settings_8cs" startline="32">_continuePreviousGame</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameSettings.GetContinuePreviousGame</definition>
+        <argsstring>()</argsstring>
+        <name>GetContinuePreviousGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="52" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" compoundref="_game_settings_8cs" startline="32">_continuePreviousGame</references>
+        <referencedby refid="class_clock_1ab1819f42c2c1497d29d6a2cbeca49dec" compoundref="_clock_8cs" startline="19" endline="35">Clock.Awake</referencedby>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">SudokuGrid.Start</referencedby>
+        <referencedby refid="class_lives_1ad70cc50f01705ed7907529d32ca123b4" compoundref="_lives_8cs" startline="25" endline="40">Lives.Start</referencedby>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">GridSquare.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1a7cf0e4eb849f823d562102675953ed4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.SetPaused</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>SetPaused</name>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="58" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="58" bodyend="58"/>
+        <references refid="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" compoundref="_game_settings_8cs" startline="34">_Paused</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1af4916f7a0a79666b73adc36858bc3dac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameSettings.GetPaused</definition>
+        <argsstring>()</argsstring>
+        <name>GetPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="59" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="59" bodyend="59"/>
+        <references refid="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" compoundref="_game_settings_8cs" startline="34">_Paused</references>
+        <referencedby refid="class_clock_1a56c7e800fc1f0ebb8823541b9c74e55a" compoundref="_clock_8cs" startline="44" endline="58">Clock.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1ab8ec24275dd4168a0e691f0c14be04e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.SetGameMode</definition>
+        <argsstring>(EGameMode mode)</argsstring>
+        <name>SetGameMode</name>
+        <param>
+          <type><ref refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883" kindref="member">EGameMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="70" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="70" bodyend="73"/>
+        <references refid="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" compoundref="_game_settings_8cs" startline="31">_GameMode</references>
+        <referencedby refid="class_game_settings_1a77c5b81457308ffb47e454581e309fdc" compoundref="_game_settings_8cs" startline="75" endline="82">SetGameMode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1a77c5b81457308ffb47e454581e309fdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameSettings.SetGameMode</definition>
+        <argsstring>(string mode)</argsstring>
+        <name>SetGameMode</name>
+        <param>
+          <type>string</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="75" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="75" bodyend="82"/>
+        <references refid="class_game_settings_1ab8ec24275dd4168a0e691f0c14be04e9" compoundref="_game_settings_8cs" startline="70" endline="73">SetGameMode</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_settings_1a4bc630d8c9490a4cfbabf89118dbb5cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GameSettings.GetGameMode</definition>
+        <argsstring>()</argsstring>
+        <name>GetGameMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="84" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="84" bodyend="96"/>
+        <references refid="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" compoundref="_game_settings_8cs" startline="31">_GameMode</references>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">SudokuGrid.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>GameSettings</label>
+        <link refid="class_game_settings"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="67">
+        <label>GameSettings</label>
+        <link refid="class_game_settings"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="68">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" line="6" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameSettings.cs" bodystart="5" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>_continuePreviousGame</name></member>
+      <member refid="class_game_settings_1aeaacb36be5b8bf791ddafb1b25d4a8f6" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>_exitAfterWon</name></member>
+      <member refid="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>_GameMode</name></member>
+      <member refid="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>_Paused</name></member>
+      <member refid="class_game_settings_1ac99457702064b89556723a19dc9f2984" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>Awake</name></member>
+      <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>EGameMode</name></member>
+      <member refid="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>GetContinuePreviousGame</name></member>
+      <member refid="class_game_settings_1a579460014a2eba6bc47b6aa7e9eac60c" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>GetExitAfterWon</name></member>
+      <member refid="class_game_settings_1a4bc630d8c9490a4cfbabf89118dbb5cf" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>GetGameMode</name></member>
+      <member refid="class_game_settings_1af4916f7a0a79666b73adc36858bc3dac" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>GetPaused</name></member>
+      <member refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>Instance</name></member>
+      <member refid="class_game_settings_1a8ec94008e5b14101a79be371987450d3" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>SetContinuePreviousGame</name></member>
+      <member refid="class_game_settings_1a0ab18ef7d8a0e27b2404a0f75424b357" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>SetExitAfterWon</name></member>
+      <member refid="class_game_settings_1ab8ec24275dd4168a0e691f0c14be04e9" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>SetGameMode</name></member>
+      <member refid="class_game_settings_1a77c5b81457308ffb47e454581e309fdc" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>SetGameMode</name></member>
+      <member refid="class_game_settings_1a7cf0e4eb849f823d562102675953ed4d" prot="public" virt="non-virtual"><scope>GameSettings</scope><name>SetPaused</name></member>
+      <member refid="class_game_settings_1ab7929820980cae610213033264d128c2" prot="private" virt="non-virtual"><scope>GameSettings</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

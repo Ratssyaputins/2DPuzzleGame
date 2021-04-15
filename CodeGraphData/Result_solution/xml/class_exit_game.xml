@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_exit_game" kind="class" prot="public">
+    <compoundname>ExitGame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_exit_game_1a3dbe116f807772ca8194bceb65c55f6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExitGame.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/ExitGame.cs" line="7" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/ExitGame.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>ExitGame</label>
+        <link refid="class_exit_game"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="55">
+        <label>ExitGame</label>
+        <link refid="class_exit_game"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/ExitGame.cs" line="6" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/ExitGame.cs" bodystart="5" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_exit_game_1a3dbe116f807772ca8194bceb65c55f6c" prot="public" virt="non-virtual"><scope>ExitGame</scope><name>Close</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

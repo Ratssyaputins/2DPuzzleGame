@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_menu_buttons" kind="class" prot="public">
+    <compoundname>MenuButtons</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_menu_buttons_1a6f350ef846d7608e69b9d7b8e5725b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.LoadScene</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadScene</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="9" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1ac5bbcdc7fdf3c86dcb79b048db96b352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.LoadEasyGame</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadEasyGame</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="14" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1a8479efd65578db58a31c65398350c922" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.LoadMediumGame</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadMediumGame</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="21" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1addbb26692bfb41b0102cd5bb80fb7f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.LoadHardGame</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadHardGame</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="28" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1a8da8a0498fb929326abc3b65521ab0a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.LoadVeryHardGame</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadVeryHardGame</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="35" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1a7a37663fb9ca51ca2d9c95c9e27216c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.ActiveObject</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>ActiveObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="43" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1aa4ab4a9518da5dbb49b6b8864bd0a0ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.DeActiveObject</definition>
+        <argsstring>(GameObject obj)</argsstring>
+        <name>DeActiveObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="48" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1a830b85f976bdc1b7666ba9459a5c687f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.SetPause</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>SetPause</name>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="52" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1ab68fbc90cebc04f7b44f236685d026fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.ContinuePreviousGame</definition>
+        <argsstring>(bool continue_game)</argsstring>
+        <name>ContinuePreviousGame</name>
+        <param>
+          <type>bool</type>
+          <declname>continue_game</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="57" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_menu_buttons_1a3f952045b25e22eb293be7f3d35c3a41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MenuButtons.ExitAfterWon</definition>
+        <argsstring>()</argsstring>
+        <name>ExitAfterWon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="62" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>MenuButtons</label>
+        <link refid="class_menu_buttons"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>MenuButtons</label>
+        <link refid="class_menu_buttons"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" line="7" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/MenuButtons.cs" bodystart="6" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_menu_buttons_1a7a37663fb9ca51ca2d9c95c9e27216c0" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>ActiveObject</name></member>
+      <member refid="class_menu_buttons_1ab68fbc90cebc04f7b44f236685d026fb" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>ContinuePreviousGame</name></member>
+      <member refid="class_menu_buttons_1aa4ab4a9518da5dbb49b6b8864bd0a0ae" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>DeActiveObject</name></member>
+      <member refid="class_menu_buttons_1a3f952045b25e22eb293be7f3d35c3a41" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>ExitAfterWon</name></member>
+      <member refid="class_menu_buttons_1ac5bbcdc7fdf3c86dcb79b048db96b352" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>LoadEasyGame</name></member>
+      <member refid="class_menu_buttons_1addbb26692bfb41b0102cd5bb80fb7f55" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>LoadHardGame</name></member>
+      <member refid="class_menu_buttons_1a8479efd65578db58a31c65398350c922" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>LoadMediumGame</name></member>
+      <member refid="class_menu_buttons_1a6f350ef846d7608e69b9d7b8e5725b98" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>LoadScene</name></member>
+      <member refid="class_menu_buttons_1a8da8a0498fb929326abc3b65521ab0a4" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>LoadVeryHardGame</name></member>
+      <member refid="class_menu_buttons_1a830b85f976bdc1b7666ba9459a5c687f" prot="public" virt="non-virtual"><scope>MenuButtons</scope><name>SetPause</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,874 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark01" kind="class"><name>TMPro::Examples::Benchmark01</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1adb8b4f7e8213b2c146e8d8e1b88180dc" kind="variable"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1ac150b09608aaf2f8e06fa0703496c864" kind="variable"><name>TMProFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a8e58d54eac5c21bc055263ff7689322f" kind="variable"><name>TextMeshFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1aeffa4ceaf4dc78bbe7ea5edb00ade157" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a8e52e91b8d83663ccef6e11f6f9cee38" kind="variable"><name>m_textContainer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a1fc13c5132d5561cbacf7854754a14a7" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a77be73d3b7e00ba36cf8996a0f4ecf3a" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1ad592c85a36ff01c147af5953b647e721" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a2c178228c97f2aa9e5f8e48a62c85810" kind="variable"><name>m_material01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1a0dc7f445e129a625644c411430b4be40" kind="variable"><name>m_material02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01_1aa55f468ecf85b127e95cff7bcccf1db9" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i" kind="class"><name>TMPro::Examples::Benchmark01_UGUI</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a51ddf99f4bea063d19d029efbc672ea8" kind="variable"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a02cfe9754494cce88d818ab75c1da2d9" kind="variable"><name>canvas</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a00697aa21ceb618628b504467e786a94" kind="variable"><name>TMProFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a76855aada34fa968c4a26cbe7be9d180" kind="variable"><name>TextMeshFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a138cb98358634c40efb0e35e4b8d2da0" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a9eb879cfb947c40a33a8a7f5bbf18661" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a8bba7d6079aca832612a80f4ae68b2db" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1abfd96548cfc3d7a5c2bed80aa4f4a00f" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a27552373f2d542929f2ab2b92e09db80" kind="variable"><name>m_material01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a95ca6bf5a7d5f8cd4eeef51bdbf0e864" kind="variable"><name>m_material02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i_1a72bbcf307e7a9a4fb28edf0e4865b619" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark02" kind="class"><name>TMPro::Examples::Benchmark02</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1a2a32f6a6d5ecd16e70c8174957234158" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1ab564edc57654d2d1a52a5dd012f3b63e" kind="variable"><name>NumberOfNPC</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1a6517c4d88f4f61f3b4f9032310d0b734" kind="variable"><name>floatingText_Script</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark02_1ad079cdf95753c6a6d92cd89b72d5f637" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark03" kind="class"><name>TMPro::Examples::Benchmark03</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14a" kind="enum"><name>BenchmarkType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aafca9d59239c6f35c2f0aac71266b1e0d" kind="enumvalue"><name>TMP_SDF_MOBILE</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aaace65420212814769249b3b9cec85693" kind="enumvalue"><name>TMP_SDF__MOBILE_SSD</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa5034bfb01f1ef64ed8c16b4dcaf26983" kind="enumvalue"><name>TMP_SDF</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa843417aa36d5868faea02d795c0db97f" kind="enumvalue"><name>TMP_BITMAP_MOBILE</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a96b452498552226f5520d9426538d14aa60b5f9278a0883891723912a65cb9820" kind="enumvalue"><name>TEXTMESH_BITMAP</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a0018cd82081205ac1379fa8e66a394f0" kind="variable"><name>NumberOfSamples</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a467c3e3f72230d8eb48dbb8e1533cd12" kind="variable"><name>Benchmark</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a4d7a226f0facf0494d3c5eaef95d234c" kind="variable"><name>SourceFontFile</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a6bac045f150b54ef8be968b836d8dd52" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark03_1a91e862bb55bb6a47ce5af531634addf7" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_benchmark04" kind="class"><name>TMPro::Examples::Benchmark04</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ae0ed0b5b3b4420880d61a9898689b99b" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1a85eba46098210950a9d7c3d05ed3ff66" kind="variable"><name>MinPointSize</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ac46a1dbaedb058606168ac613b37e4a7" kind="variable"><name>MaxPointSize</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1abf9ed65203897e474c369e98aa8fa325" kind="variable"><name>Steps</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1ab02a4920ec975bc74fc79bfba5a8b10f" kind="variable"><name>m_Transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_benchmark04_1a2c62d8d74ee70722e0a324c46d244597" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_camera_controller" kind="class"><name>TMPro::Examples::CameraController</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ce" kind="enum"><name>CameraModes</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea3903aab323863bd2e9b68218a7a65ebd" kind="enumvalue"><name>Follow</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452cea93fe1f7c5ca2e09af063aca96d0625cc" kind="enumvalue"><name>Isometric</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8180251e92d62266c8a026f0b77452ceab24ce0cd392a5b0b8dedc66c25213594" kind="enumvalue"><name>Free</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ac36764811b8b0bf7bc28f5d94652c86c" kind="variable"><name>cameraTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a04361574aff357dcec41a4bafbce5b1d" kind="variable"><name>dummyTarget</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1adc57f6832421a8925cb6af0278644c96" kind="variable"><name>previousSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e6b37b51a026049ac063a651f95f56c" kind="variable"><name>currentVelocity</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a7c67314ea5cfdc0491ccd5915eb22927" kind="variable"><name>desiredPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aa108422dd9ec2db51e4a51b6fa49eda6" kind="variable"><name>mouseX</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aecf20a7e35c36a8cc228863cb31e3fbe" kind="variable"><name>mouseY</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1adfb1f4f8bb0f1c536914e4e8c63300b3" kind="variable"><name>moveVector</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aca728ed124c5bc66514cac1c92dfcae2" kind="variable"><name>mouseWheel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1afad7b776c032f00b6ea912bc0a3fdd3a" kind="variable"><name>event_SmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aa11c6325e2887eb4939340b36a86f07e" kind="variable"><name>event_FollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a185480dc2cf1a5f480549dfebc0ee8e7" kind="variable"><name>CameraTarget</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a63f61961e47e5d7068e6ce65be83cc36" kind="variable"><name>FollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a794f2217e529fa239e65463612bd78ca" kind="variable"><name>MaxFollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1af54c30206b387c4cdb03d8c894aee65e" kind="variable"><name>MinFollowDistance</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a8709e27c129e088a6da0f43c119d835a" kind="variable"><name>ElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a33b43fba4e4a426db3cf907e875a579a" kind="variable"><name>MaxElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ab56a8533afb8ddf74cf4f28403db0c9e" kind="variable"><name>MinElevationAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ac480ba2a3715f19d27dabb126ebb9a55" kind="variable"><name>OrbitalAngle</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a27513135088672400a14f64275a45190" kind="variable"><name>CameraMode</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a88aeb1dacfab4311497e12b63d9a0ead" kind="variable"><name>MovementSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a3e2c0e89101934e95f27fa271ff05d14" kind="variable"><name>RotationSmoothing</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1add5727218e5af8bf5c4d50ecbc69eff2" kind="variable"><name>MovementSmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a004e199cff2c8738cc9584087357444d" kind="variable"><name>RotationSmoothingValue</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1af5ce7ae7b15ae2b86b4d7b4ad077d71a" kind="variable"><name>MoveSensitivity</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ababc2f74b5580b96a5b15259eec5759a" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1ae3e24286c2245dd641957f886af00335" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1a9f5da05c646aad22ad84d5f8fa4a135c" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_camera_controller_1aee18ca227c7c36eef5c5c21e07f0473b" kind="function"><name>GetPlayerInput</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_character_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::CharacterSelectionEvent</name>
+  </compound>
+  <compound refid="class_chat_controller" kind="class"><name>ChatController</name>
+    <member refid="class_chat_controller_1aa10d0f728b5a82ad62e48b0367c29054" kind="variable"><name>TMP_ChatInput</name></member>
+    <member refid="class_chat_controller_1aac379e56f05d9710d7363645e887f139" kind="variable"><name>TMP_ChatOutput</name></member>
+    <member refid="class_chat_controller_1a76cac89a1da8d005d5da2e3a2a93de57" kind="variable"><name>ChatScrollbar</name></member>
+    <member refid="class_chat_controller_1a3423082c1eb4fb566c5a6df99f5cee64" kind="function"><name>OnEnable</name></member>
+    <member refid="class_chat_controller_1a14b6ba4660216ef76040803a6916740f" kind="function"><name>OnDisable</name></member>
+    <member refid="class_chat_controller_1ad8da6957231dd7cb1b4f6cca65bd4112" kind="function"><name>AddToChatOutput</name></member>
+  </compound>
+  <compound refid="class_clock" kind="class"><name>Clock</name>
+    <member refid="class_clock_1a2537cf18f5d80171b7a61f0f2ca8d72a" kind="variable"><name>hour_</name></member>
+    <member refid="class_clock_1a20092abcbd808f521a0fe60b1a5c94cb" kind="variable"><name>minute_</name></member>
+    <member refid="class_clock_1a00f24bd1db199ad77db4104f732b8716" kind="variable"><name>seconds_</name></member>
+    <member refid="class_clock_1a1acd620de663325e5dc65b3a89e819f2" kind="variable"><name>textClock</name></member>
+    <member refid="class_clock_1a27b74c43e2f9172b26d2579099aeea28" kind="variable"><name>delta_time</name></member>
+    <member refid="class_clock_1a149182dddc8d8d727dbed147b8fed5bc" kind="variable"><name>stop_clock_</name></member>
+    <member refid="class_clock_1adf75e347b774b02b246111745f5fdd67" kind="variable"><name>instance</name></member>
+    <member refid="class_clock_1ab1819f42c2c1497d29d6a2cbeca49dec" kind="function"><name>Awake</name></member>
+    <member refid="class_clock_1a1ade94dcd0ad4ea5a3c253969e120aee" kind="function"><name>Start</name></member>
+    <member refid="class_clock_1a56c7e800fc1f0ebb8823541b9c74e55a" kind="function"><name>Update</name></member>
+    <member refid="class_clock_1a03a902a82d199319086f75b7f7fb5188" kind="function"><name>LeadingZero</name></member>
+    <member refid="class_clock_1a1dec0c98c24e5a876dfe50664cb87743" kind="function"><name>OnEnable</name></member>
+    <member refid="class_clock_1a3a352acd7da94a0f4a99dd5b01a16356" kind="function"><name>OnDisable</name></member>
+    <member refid="class_clock_1af0b14f07ec5d6185a89dd81d7c170ea8" kind="function"><name>OnGameOver</name></member>
+    <member refid="class_clock_1a365922beab5d6b6b03d06a566631412c" kind="function"><name>GetCurrentTimeText</name></member>
+    <member refid="class_clock_1a128fbde042ddd97838f43d4dc57bb004" kind="function"><name>GetCurrentTime</name></member>
+  </compound>
+  <compound refid="class_config" kind="class"><name>Config</name>
+    <member refid="class_config_1a6c8bc73cffd3d1bc55adbd9b7f41453f" kind="variable"><name>dir</name></member>
+    <member refid="class_config_1a288427b85524207ac1f36047c171fcde" kind="variable"><name>file</name></member>
+    <member refid="class_config_1a28a688ec35d18bd9c52d5340c2bb7003" kind="variable"><name>path</name></member>
+    <member refid="class_config_1a4bf7824fa7f3d0e039c4b1923d32a709" kind="function"><name>DeleteDataFile</name></member>
+    <member refid="class_config_1adf5b0eb20304b0f790ce01f311193878" kind="function"><name>SaveBoardData</name></member>
+    <member refid="class_config_1a61c2ce213410d87982a4112082cea59a" kind="function"><name>GetGridNotes</name></member>
+    <member refid="class_config_1adc16342f91c6e5840321878999c85a25" kind="function"><name>ReadBoardLevel</name></member>
+    <member refid="class_config_1ace8363bbb9e00437752578c5d8379f8f" kind="function"><name>ReadGridData</name></member>
+    <member refid="class_config_1ab1ce7e9f041fa2b3341504d8658b46c0" kind="function"><name>ReadGameBoardLevel</name></member>
+    <member refid="class_config_1a821b1dc6b5b35087e7ee38b2ac592c2b" kind="function"><name>ReadGameTime</name></member>
+    <member refid="class_config_1a99662f9e7818476802cd1780f2adfc71" kind="function"><name>ErrorNumber</name></member>
+    <member refid="class_config_1aecd239d9cab7ada16b2659750e36f3e7" kind="function"><name>GameDataFileExist</name></member>
+  </compound>
+  <compound refid="class_continue_button" kind="class"><name>ContinueButton</name>
+    <member refid="class_continue_button_1a4afc401705e8ee8e8ac95c3e8390d735" kind="variable"><name>timeText</name></member>
+    <member refid="class_continue_button_1a785adcb5919667bbe51db72e5eecc09e" kind="variable"><name>levelText</name></member>
+    <member refid="class_continue_button_1a292b9c3a3b96733a703ba448b4526ca7" kind="function"><name>LeadingZero</name></member>
+    <member refid="class_continue_button_1acabc6dc4b7bb47ae48fe946834252e9c" kind="function"><name>Start</name></member>
+    <member refid="class_continue_button_1abd52c70906797aa66a365962d246eda5" kind="function"><name>SetGameData</name></member>
+  </compound>
+  <compound refid="class_dropdown_sample" kind="class"><name>DropdownSample</name>
+    <member refid="class_dropdown_sample_1a7d0f56c0fb633e77ee05197354b515b1" kind="variable"><name>text</name></member>
+    <member refid="class_dropdown_sample_1a337a104db31bcec7e189ae9aa5b4d7a5" kind="variable"><name>dropdownWithoutPlaceholder</name></member>
+    <member refid="class_dropdown_sample_1a885d8fbdb7bd94d04ea857635765bd7c" kind="variable"><name>dropdownWithPlaceholder</name></member>
+    <member refid="class_dropdown_sample_1af87d7f8d01af498974a8d63e774b4a4b" kind="function"><name>OnButtonClick</name></member>
+  </compound>
+  <compound refid="class_env_map_animator" kind="class"><name>EnvMapAnimator</name>
+    <member refid="class_env_map_animator_1a0e8af1e7df113e4ca34b2ffbb6a603e7" kind="variable"><name>RotationSpeeds</name></member>
+    <member refid="class_env_map_animator_1ab5eb85d6b2d2cd0c16dc89a97bdcd7f3" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_env_map_animator_1adba0e59d88f38e597f293b8ee9cd22e3" kind="variable"><name>m_material</name></member>
+    <member refid="class_env_map_animator_1ab068eb4d4818991266673eec54fc015a" kind="function"><name>Awake</name></member>
+    <member refid="class_env_map_animator_1adbe7951dff130857ba9b73a293873cd5" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_exit_game" kind="class"><name>ExitGame</name>
+    <member refid="class_exit_game_1a3dbe116f807772ca8194bceb65c55f6c" kind="function"><name>Close</name></member>
+  </compound>
+  <compound refid="class_game_events" kind="class"><name>GameEvents</name>
+    <member refid="class_game_events_1a239b3f22541d5c908b5497c8595634c1" kind="event"><name>OnCheckBoardCompleted</name></member>
+    <member refid="class_game_events_1afd21e067f8862159b8dbf84081307065" kind="event"><name>OnUpdateSquareNumber</name></member>
+    <member refid="class_game_events_1a4e4395058eb98a2d781f69d7e19801d1" kind="event"><name>OnSquareSelected</name></member>
+    <member refid="class_game_events_1ad92c63228b171cdae60c5223522feb49" kind="event"><name>OnWrongNumber</name></member>
+    <member refid="class_game_events_1a6420dd08bab5a2f478d7926ad4eba6c4" kind="event"><name>OnGameOver</name></member>
+    <member refid="class_game_events_1a91a8da4f069dcfef80b0820f09461400" kind="event"><name>OnNotesActive</name></member>
+    <member refid="class_game_events_1af9fa0c2165b62f7ffd025728c7d475dd" kind="event"><name>OnClearNumber</name></member>
+    <member refid="class_game_events_1a7e12c525c5c2ce3858357ee70902c5a8" kind="event"><name>OnBoardcompleted</name></member>
+    <member refid="class_game_events_1ae8756fcfb62ab01c63620a2bb87ca1a7" kind="function"><name>CheckBoardCompleted</name></member>
+    <member refid="class_game_events_1a0f97105d04b942b7904b3c961b4db4e6" kind="function"><name>UpdateSquareNumber</name></member>
+    <member refid="class_game_events_1a5371ee77dcc12080eb51522a2a760aaf" kind="function"><name>SquareSelected</name></member>
+    <member refid="class_game_events_1afbea2fa030a07a6dc09491e998465a50" kind="function"><name>WrongNumber</name></member>
+    <member refid="class_game_events_1a6e1f712e069f2e5e0637a71be97bcc42" kind="function"><name>GameOver</name></member>
+    <member refid="class_game_events_1aa56e4151528cd941b8e89853989b2ead" kind="function"><name>NotesActive</name></member>
+    <member refid="class_game_events_1a719d313fa58bbcb583fbc6c129613c59" kind="function"><name>ClearNumber</name></member>
+    <member refid="class_game_events_1abc4c62d128ea59efefb23441c600b848" kind="function"><name>Boardcompleted</name></member>
+    <member refid="class_game_events_1a14f1a039482f21d9443ec36b9d4136bb" kind="function"><name>CheckBoardCompletedMethod</name></member>
+    <member refid="class_game_events_1ab1e468f7d6afa8594f59bd9a2ccb7397" kind="function"><name>UpdateSquareNumberMethod</name></member>
+    <member refid="class_game_events_1a1f37cb16fc75d336ad0f9fabf9156ab2" kind="function"><name>SquareSelectedMethod</name></member>
+    <member refid="class_game_events_1a9d694d5d01c13657bb34dcb5510ab195" kind="function"><name>OnWrongNumberMethod</name></member>
+    <member refid="class_game_events_1adf2743a9636f3902a0c7a569b7b266cc" kind="function"><name>OnGameOverMethod</name></member>
+    <member refid="class_game_events_1adb56e47f9986e1bcc897b60712d40000" kind="function"><name>OnNotesActiveMethod</name></member>
+    <member refid="class_game_events_1ab51eba31c28e21ec3112f50aee94d284" kind="function"><name>OnClearNumberMethod</name></member>
+    <member refid="class_game_events_1a0331f0a7dbd16bb7ee832f0cf5591025" kind="function"><name>OnBoardcompletedMethod</name></member>
+  </compound>
+  <compound refid="class_game_over_menu" kind="class"><name>GameOverMenu</name>
+    <member refid="class_game_over_menu_1a9f3de27940386233928f82b1e0915bcb" kind="variable"><name>textClock</name></member>
+    <member refid="class_game_over_menu_1a8565cc752b69bed8f0f646a9c788f9c3" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_game_settings" kind="class"><name>GameSettings</name>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883" kind="enum"><name>EGameMode</name></member>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a1c250a21210b7b88a14db9a0cbe71162" kind="enumvalue"><name>NOT_SET</name></member>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a6e5affbf5c08fef0e28c094856f94627" kind="enumvalue"><name>EASY</name></member>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883ac87f3be66ffc3c0d4249f1c2cc5f3cce" kind="enumvalue"><name>MEDIUM</name></member>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883a7c144eae2e08db14c82e376603cc01f4" kind="enumvalue"><name>HARD</name></member>
+    <member refid="class_game_settings_1ac81e8426845a8e2cae904fa6ae1c6883ad14f968d0defca9dbe2bba9bd6da0f38" kind="enumvalue"><name>VERY_HARD</name></member>
+    <member refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" kind="variable"><name>Instance</name></member>
+    <member refid="class_game_settings_1a8b60170aa3f5060ad77e66ed2b2f945c" kind="variable"><name>_GameMode</name></member>
+    <member refid="class_game_settings_1a8de3f13f44f834443a896c4ff6cd932f" kind="variable"><name>_continuePreviousGame</name></member>
+    <member refid="class_game_settings_1aeaacb36be5b8bf791ddafb1b25d4a8f6" kind="variable"><name>_exitAfterWon</name></member>
+    <member refid="class_game_settings_1a024e7123f37668d93c2a5adcae460eb2" kind="variable"><name>_Paused</name></member>
+    <member refid="class_game_settings_1ac99457702064b89556723a19dc9f2984" kind="function"><name>Awake</name></member>
+    <member refid="class_game_settings_1ab7929820980cae610213033264d128c2" kind="function"><name>Start</name></member>
+    <member refid="class_game_settings_1a0ab18ef7d8a0e27b2404a0f75424b357" kind="function"><name>SetExitAfterWon</name></member>
+    <member refid="class_game_settings_1a579460014a2eba6bc47b6aa7e9eac60c" kind="function"><name>GetExitAfterWon</name></member>
+    <member refid="class_game_settings_1a8ec94008e5b14101a79be371987450d3" kind="function"><name>SetContinuePreviousGame</name></member>
+    <member refid="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" kind="function"><name>GetContinuePreviousGame</name></member>
+    <member refid="class_game_settings_1a7cf0e4eb849f823d562102675953ed4d" kind="function"><name>SetPaused</name></member>
+    <member refid="class_game_settings_1af4916f7a0a79666b73adc36858bc3dac" kind="function"><name>GetPaused</name></member>
+    <member refid="class_game_settings_1ab8ec24275dd4168a0e691f0c14be04e9" kind="function"><name>SetGameMode</name></member>
+    <member refid="class_game_settings_1a77c5b81457308ffb47e454581e309fdc" kind="function"><name>SetGameMode</name></member>
+    <member refid="class_game_settings_1a4bc630d8c9490a4cfbabf89118dbb5cf" kind="function"><name>GetGameMode</name></member>
+  </compound>
+  <compound refid="class_game_won" kind="class"><name>GameWon</name>
+    <member refid="class_game_won_1aee4aa6ffd00e81e12a2b5a99edad0872" kind="variable"><name>WinPopup</name></member>
+    <member refid="class_game_won_1a13e42a3f4e8d4b418740f4d3ae119bcc" kind="variable"><name>ClockText</name></member>
+    <member refid="class_game_won_1a30d35ec60a09bfe6a087bbb1f8edc599" kind="function"><name>Start</name></member>
+    <member refid="class_game_won_1a72b5ffe1942d4134d40b38e610980b18" kind="function"><name>OnBoardCompleted</name></member>
+    <member refid="class_game_won_1a634ae174b3e939f3439e93fd11eef9e8" kind="function"><name>OnEnable</name></member>
+    <member refid="class_game_won_1acea193361b83d69dd73dc06370c6441e" kind="function"><name>OnDisable</name></member>
+  </compound>
+  <compound refid="class_grid_square" kind="class"><name>GridSquare</name>
+    <member refid="class_grid_square_1a8083ecc58295776e4aa733958acec42e" kind="variable"><name>number_text</name></member>
+    <member refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" kind="variable"><name>number_notes</name></member>
+    <member refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" kind="variable"><name>note_active</name></member>
+    <member refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" kind="variable"><name>number_</name></member>
+    <member refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" kind="variable"><name>correct_number_</name></member>
+    <member refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" kind="variable"><name>selected_</name></member>
+    <member refid="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" kind="variable"><name>square_index_</name></member>
+    <member refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" kind="variable"><name>has_default_value_</name></member>
+    <member refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" kind="variable"><name>has_wrong_value_</name></member>
+    <member refid="class_grid_square_1a5e3590081b5cee497da211b17183a659" kind="function"><name>GetSquareNumber</name></member>
+    <member refid="class_grid_square_1ae41dcd48ae02bb70a6fa4c9e5c0dd6db" kind="function"><name>IsCorrectNumberSet</name></member>
+    <member refid="class_grid_square_1ae9098798b1470ae779c496a17cfebb7b" kind="function"><name>HasWrongValue</name></member>
+    <member refid="class_grid_square_1ae5aefcd92f9e65325dd6e1293c7ec575" kind="function"><name>SetHasDefaultValue</name></member>
+    <member refid="class_grid_square_1a7164b1893aab8748407ec14a790357ab" kind="function"><name>GetHasDefaultValue</name></member>
+    <member refid="class_grid_square_1a335de5fcc8801e9901c9ae37d870961e" kind="function"><name>IsSelected</name></member>
+    <member refid="class_grid_square_1a7c7a7610c6b67124039b67dbe5260881" kind="function"><name>SetSquareIndex</name></member>
+    <member refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" kind="function"><name>SetCorrectNumber</name></member>
+    <member refid="class_grid_square_1ac71be3686965a9ae4e1608f9e2d6919a" kind="function"><name>SetCorrectNumber</name></member>
+    <member refid="class_grid_square_1a76900c497d8d2de97349a9dcb992500b" kind="function"><name>GetSquareNotes</name></member>
+    <member refid="class_grid_square_1ad449e2f14105b61b17113bdc32d97d88" kind="function"><name>SetGridNotes</name></member>
+    <member refid="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" kind="function"><name>OnNotesActive</name></member>
+    <member refid="class_grid_square_1af79bc723552985c5776336a34b617493" kind="function"><name>DisplayText</name></member>
+    <member refid="class_grid_square_1ac54128efa02005260792c72abad3a99b" kind="function"><name>SetNumber</name></member>
+    <member refid="class_grid_square_1ad8d047e06c523a4bd4e4e82df73e5a9e" kind="function"><name>OnPointerClick</name></member>
+    <member refid="class_grid_square_1a3aff5f72f06ac20eb6164939414e9127" kind="function"><name>OnSubmit</name></member>
+    <member refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" kind="function"><name>OnEnable</name></member>
+    <member refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" kind="function"><name>OnDisable</name></member>
+    <member refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" kind="function"><name>OnClearNumber</name></member>
+    <member refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" kind="function"><name>OnSetNumber</name></member>
+    <member refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" kind="function"><name>OnSquareSelected</name></member>
+    <member refid="class_grid_square_1a99fcc84be0ea6fdea46c9871367ed4d1" kind="function"><name>SetSquareColour</name></member>
+    <member refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" kind="function"><name>Start</name></member>
+    <member refid="class_grid_square_1a9cb4c30921c8910df72cbb303fe2c2c1" kind="function"><name>SetClearEmptyNotes</name></member>
+    <member refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" kind="function"><name>SetNoteNumberValue</name></member>
+    <member refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" kind="function"><name>SetNoteSingleNumberValue</name></member>
+  </compound>
+  <compound refid="class_line_indicator" kind="class"><name>LineIndicator</name>
+    <member refid="class_line_indicator_1a6bfdcb8a8a9a1a738a4e7bf5f17039c8" kind="variable"><name>instance</name></member>
+    <member refid="class_line_indicator_1a706154e476d337cd0f36a7f5e6ca01ce" kind="variable"><name>line_data</name></member>
+    <member refid="class_line_indicator_1a756b90d3c154307e72bb602e6b140842" kind="variable"><name>line_data_falt</name></member>
+    <member refid="class_line_indicator_1a43dc161a3a80b6206c3dd7a6a3a6ecc4" kind="variable"><name>square_data</name></member>
+    <member refid="class_line_indicator_1a03595e4665bacae0839c18652f5c8c8f" kind="variable"><name>int</name></member>
+    <member refid="class_line_indicator_1a5cec94d29af21179a014b6a921136837" kind="function"><name>Awake</name></member>
+    <member refid="class_line_indicator_1acafb8be6bcc348e4d79bb526024d1848" kind="function"><name>GetSquarePosition</name></member>
+    <member refid="class_line_indicator_1a967ae2f8c64354bd99476618f470ec22" kind="function"><name>GetHorizontalLine</name></member>
+    <member refid="class_line_indicator_1a3e322f74759c47a3f19f642031c4fb7d" kind="function"><name>GetVerticalLine</name></member>
+    <member refid="class_line_indicator_1a097a6a1c256d046a37e211ffbf967d67" kind="function"><name>GetSquare</name></member>
+    <member refid="class_line_indicator_1aeb20342c5beff0bc70ffe166969b4f12" kind="function"><name>GetAllSquareIndexes</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_line_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::LineSelectionEvent</name>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_link_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::LinkSelectionEvent</name>
+  </compound>
+  <compound refid="class_lives" kind="class"><name>Lives</name>
+    <member refid="class_lives_1a605f0295427edc7c40c86795ad0498d1" kind="variable"><name>error_images</name></member>
+    <member refid="class_lives_1aa283a542734e6d778ce5b52bf413e47f" kind="variable"><name>game_over_popup</name></member>
+    <member refid="class_lives_1aaf70c967154dca87209fa9dd7948ca42" kind="variable"><name>lives_</name></member>
+    <member refid="class_lives_1adc121b1f57b4481c185575e086038215" kind="variable"><name>error_number_</name></member>
+    <member refid="class_lives_1a5a2cf0f3d48cd4f08cdfdac75b7700b3" kind="variable"><name>instance</name></member>
+    <member refid="class_lives_1a7eb4a2e39c8b4428ead994da5a5b1952" kind="function"><name>Awake</name></member>
+    <member refid="class_lives_1ad70cc50f01705ed7907529d32ca123b4" kind="function"><name>Start</name></member>
+    <member refid="class_lives_1af16c4d49a5e906ea5b5ae79676f7ae61" kind="function"><name>WrongNumber</name></member>
+    <member refid="class_lives_1ab13f1f13e05a66632db40e112e315e15" kind="function"><name>CheckForGameOver</name></member>
+    <member refid="class_lives_1a2ac1b4a6565109a877c7ef5198b03af2" kind="function"><name>OnEnable</name></member>
+    <member refid="class_lives_1a2b0fa1cc33511321f4f7657fdab7e947" kind="function"><name>OnDisable</name></member>
+    <member refid="class_lives_1a43ccfcce2521b1caba9d8ac1517111e5" kind="function"><name>GetErrorNumber</name></member>
+  </compound>
+  <compound refid="class_menu_buttons" kind="class"><name>MenuButtons</name>
+    <member refid="class_menu_buttons_1a6f350ef846d7608e69b9d7b8e5725b98" kind="function"><name>LoadScene</name></member>
+    <member refid="class_menu_buttons_1ac5bbcdc7fdf3c86dcb79b048db96b352" kind="function"><name>LoadEasyGame</name></member>
+    <member refid="class_menu_buttons_1a8479efd65578db58a31c65398350c922" kind="function"><name>LoadMediumGame</name></member>
+    <member refid="class_menu_buttons_1addbb26692bfb41b0102cd5bb80fb7f55" kind="function"><name>LoadHardGame</name></member>
+    <member refid="class_menu_buttons_1a8da8a0498fb929326abc3b65521ab0a4" kind="function"><name>LoadVeryHardGame</name></member>
+    <member refid="class_menu_buttons_1a7a37663fb9ca51ca2d9c95c9e27216c0" kind="function"><name>ActiveObject</name></member>
+    <member refid="class_menu_buttons_1aa4ab4a9518da5dbb49b6b8864bd0a0ae" kind="function"><name>DeActiveObject</name></member>
+    <member refid="class_menu_buttons_1a830b85f976bdc1b7666ba9459a5c687f" kind="function"><name>SetPause</name></member>
+    <member refid="class_menu_buttons_1ab68fbc90cebc04f7b44f236685d026fb" kind="function"><name>ContinuePreviousGame</name></member>
+    <member refid="class_menu_buttons_1a3f952045b25e22eb293be7f3d35c3a41" kind="function"><name>ExitAfterWon</name></member>
+  </compound>
+  <compound refid="class_menu_handler" kind="class"><name>MenuHandler</name>
+    <member refid="class_menu_handler_1ad03c9e221204a62307ec78dcde4bb179" kind="variable"><name>masterAudio</name></member>
+    <member refid="class_menu_handler_1a4148f265e7afbab07ba8879e5b72a88a" kind="variable"><name>resolutions</name></member>
+    <member refid="class_menu_handler_1ae5389000d4c12d17df587bbd6e5c2c4b" kind="variable"><name>resolution</name></member>
+    <member refid="class_menu_handler_1a1f8445ef25eb415a634972a9b319a4fc" kind="function"><name>ChangeVolume</name></member>
+    <member refid="class_menu_handler_1a5d88f61613fabe6642cf85ef8130ae26" kind="function"><name>ChangeScene</name></member>
+    <member refid="class_menu_handler_1a68cc7d4c40715e04c16025ff581be35b" kind="function"><name>ToggleMute</name></member>
+    <member refid="class_menu_handler_1a9f0b857c1af43a1559098d6ec6fdeab8" kind="function"><name>ExitToDesktop</name></member>
+    <member refid="class_menu_handler_1a838daf7a420d9d18f6e20761b076423f" kind="function"><name>Quality</name></member>
+    <member refid="class_menu_handler_1a791a93becc4fcd838242cd0e1e366479" kind="function"><name>SetFullScreen</name></member>
+    <member refid="class_menu_handler_1a7d56c81936a26b737b331e2a40922723" kind="function"><name>SetResolution</name></member>
+    <member refid="class_menu_handler_1a7acc1c0116dcb9e578892eff4077e08d" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_note_button" kind="class"><name>NoteButton</name>
+    <member refid="class_note_button_1a823eec522ac47f29fa2ecb525d5c0305" kind="variable"><name>on_image</name></member>
+    <member refid="class_note_button_1ad17d34e32496109fa0f075f02a8c0a3d" kind="variable"><name>off_image</name></member>
+    <member refid="class_note_button_1aaa457b81e76809568c30f3b5496cca31" kind="variable"><name>active_</name></member>
+    <member refid="class_note_button_1a84cd1c2e1f946ae716d22c59653c3e98" kind="function"><name>Start</name></member>
+    <member refid="class_note_button_1a5fba6cc2a89538e4a688a81ed4a4a4fc" kind="function"><name>OnPointerClick</name></member>
+  </compound>
+  <compound refid="class_number_button" kind="class"><name>NumberButton</name>
+    <member refid="class_number_button_1a503208d8b1c7ad859c09435be760d5cc" kind="variable"><name>value</name></member>
+    <member refid="class_number_button_1a2b69262457d334e015749bf3e8ca4db0" kind="function"><name>Start</name></member>
+    <member refid="class_number_button_1ab00b327d22a95e56c4fbc5529a89001c" kind="function"><name>Update</name></member>
+    <member refid="class_number_button_1a0c6f51d5c0f35acc91e67ded2d111029" kind="function"><name>OnPointerClick</name></member>
+    <member refid="class_number_button_1af056ba107da6aeea3ecef7341c9baa0e" kind="function"><name>OnSubmit</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_object_spin" kind="class"><name>TMPro::Examples::ObjectSpin</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fc" kind="enum"><name>MotionType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcaf1a42bd417390fc63b030a519624607a" kind="enumvalue"><name>Rotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fcad64312a309fe3d4d870a2afbd94d5ec3" kind="enumvalue"><name>BackAndForth</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a45f51bc7820e9bbc91c1806bcaded7fca6dd08874f83507e9c7b23f1a46b7fa7c" kind="enumvalue"><name>Translation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a4b1d0b19553122b485c5878fe45ea0b3" kind="variable"><name>SpinSpeed</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a802c4f5441264532dd2b379c48dfa012" kind="variable"><name>RotationRange</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1ae422bdffcabfc75fae2c0bad902124f1" kind="variable"><name>Motion</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1aa4c3f81d6599f7413b15b6506ec43c13" kind="variable"><name>m_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a654490f014827216fcf23ef71e98999f" kind="variable"><name>m_time</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a0138defc93d0f01ae2ead2e1c3797ac5" kind="variable"><name>m_prevPOS</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a9a1322b6bd1252329a536606100e6dd6" kind="variable"><name>m_initial_Rotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a8b1e3a08cdae0b3e63197580206dc2b8" kind="variable"><name>m_initial_Position</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a96280fca56fbe192706a8d12072231e7" kind="variable"><name>m_lightColor</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1a7bac58b20ea632aef69eb77bb156bd30" kind="variable"><name>frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1ae9048c02ad22ba858707c6c9dfdef6aa" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_object_spin_1acd1a3c2ffda7ea557363743b96329119" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_pause" kind="class"><name>Pause</name>
+    <member refid="class_pause_1ae36bff92c10bc98130becf941df84505" kind="variable"><name>pausePanel</name></member>
+    <member refid="class_pause_1a5ff46fb2e368a2c9492e8c842a18ac93" kind="variable"><name>optionsPanel</name></member>
+    <member refid="class_pause_1aab062f8945cc0bad08b554ad58357dc5" kind="function"><name>Update</name></member>
+    <member refid="class_pause_1af896b78c5ed2f933cc4028b17b6f5589" kind="function"><name>Unpause</name></member>
+  </compound>
+  <compound refid="class_pause_handler" kind="class"><name>PauseHandler</name>
+    <member refid="class_pause_handler_1a76adab83ca4ebad9c930fcab704be680" kind="variable"><name>isPaused</name></member>
+    <member refid="class_pause_handler_1ab95afcf18159979a0e5fb57b98788e1e" kind="variable"><name>pauseMenu</name></member>
+    <member refid="class_pause_handler_1ad5253a00afe1048f8a426a60ea82784b" kind="variable"><name>optionsMenu</name></member>
+    <member refid="class_pause_handler_1a15c871680a76d834e3fa4d01ed94ce9e" kind="function"><name>Paused</name></member>
+    <member refid="class_pause_handler_1a91fe1e40d37d098e1a203a65774c74be" kind="function"><name>Start</name></member>
+    <member refid="class_pause_handler_1a8a86c2088c8fb537402d0ed5d5fb9477" kind="function"><name>Update</name></member>
+    <member refid="class_pause_handler_1a4b6ca29f15fc4455c60e4842629b2ab1" kind="function"><name>UnPaused</name></member>
+  </compound>
+  <compound refid="class_pause_menu" kind="class"><name>PauseMenu</name>
+    <member refid="class_pause_menu_1af73a258705d2a70d1988141a40b0d894" kind="variable"><name>time_text</name></member>
+    <member refid="class_pause_menu_1a37a12a4d6ef0a22c1463a95e0eb1ca67" kind="function"><name>DisplayTime</name></member>
+  </compound>
+  <compound refid="class_rubber_button" kind="class"><name>RubberButton</name>
+    <member refid="class_rubber_button_1a8d574b1e413db55f72fdfd7a4308644d" kind="function"><name>OnPointerClick</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator" kind="class"><name>TMPro::Examples::ShaderPropAnimator</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1ab352d356a9ac0b0d624dbb0ac710c20c" kind="variable"><name>m_Renderer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1addbb1235d17334b54f2a84ac80462542" kind="variable"><name>m_Material</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5b9d48d8e4affbb0d205aa88136919f1" kind="variable"><name>GlowCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6e28899cd07f82e7b51db5d99d06abc0" kind="variable"><name>m_frame</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a6b90e947cd9b865b817b0e880d1966e8" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a5e02cbaa1836717ecb1d3c7ca1102117" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_shader_prop_animator_1a10d4f51c73fd5a477bd599db3fda4b18" kind="function"><name>AnimateProperties</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_simple_script" kind="class"><name>TMPro::Examples::SimpleScript</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1abe951526ba52e3418fd1d8faf157a35e" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1ae9e2786f4ae458c9eef5a57e5f09b533" kind="variable"><name>label</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1a32751c30269823988301892a247d825e" kind="variable"><name>m_frame</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1afee2cd5e0dbf2244d09333d31ac27040" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_simple_script_1a261280a451af9aef31d4520561416599" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_skew_text_example" kind="class"><name>TMPro::Examples::SkewTextExample</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a2c7d525575e9efa7c051bc88190c220c" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a97a9859d8cdc12282e8bab29234cdf40" kind="variable"><name>VertexCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a99a24dc0d0b4c3c9ae46c925a57031f1" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a6f76ea16465a528676168b897d3d90a2" kind="variable"><name>ShearAmount</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a41d450e8d1c6f1a3ccc8b5271d6848a0" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1adfeed651f0d70d892c912023307430fa" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1a71e40729ea55367d244f8cbb3a8409fc" kind="function"><name>CopyAnimationCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_skew_text_example_1ab944d8c8f98e214fdfd3953b3dad67c1" kind="function"><name>WarpText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_sprite_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::SpriteSelectionEvent</name>
+  </compound>
+  <compound refid="struct_sudoku_data_1_1_sudoku_board_data" kind="struct"><name>SudokuData::SudokuBoardData</name>
+    <member refid="struct_sudoku_data_1_1_sudoku_board_data_1ac9663e8d95ea1fe736e2b78ff8e9a806" kind="variable"><name>unsolved_data</name></member>
+    <member refid="struct_sudoku_data_1_1_sudoku_board_data_1a5362b69395857b1831f722ee21bee087" kind="variable"><name>solved_data</name></member>
+    <member refid="struct_sudoku_data_1_1_sudoku_board_data_1a993f4da27646a9075116c6a50e6a748b" kind="function"><name>SudokuBoardData</name></member>
+  </compound>
+  <compound refid="class_sudoku_data" kind="class"><name>SudokuData</name>
+    <member refid="class_sudoku_data_1a1f75d0b9c9888bfcafaa007dad11b4ee" kind="variable"><name>Instance</name></member>
+    <member refid="class_sudoku_data_1aedb0063fdca17199539c92e1526511e4" kind="variable"><name>sudoku_game</name></member>
+    <member refid="class_sudoku_data_1a650050b461d4e458c024ab20fc9c7fb6" kind="function"><name>Awake</name></member>
+    <member refid="class_sudoku_data_1a17370fb37b201790f7bf3d458b7538e5" kind="function"><name>Start</name></member>
+    <member refid="class_sudoku_data_1aeaa58345487794ccdcc64ddb5d0dc364" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_sudoku_easy_data" kind="class"><name>SudokuEasyData</name>
+    <member refid="class_sudoku_easy_data_1a76e3e7fb9ff3d09dc39182221d50f7a3" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="class_sudoku_grid" kind="class"><name>SudokuGrid</name>
+    <member refid="class_sudoku_grid_1a085858666b426165bd06fb117eacbc23" kind="variable"><name>columns</name></member>
+    <member refid="class_sudoku_grid_1ab842ccf3900e8785c2c801e94b70c598" kind="variable"><name>rows</name></member>
+    <member refid="class_sudoku_grid_1afd779b667207007bd0bc76d335234901" kind="variable"><name>square_offset</name></member>
+    <member refid="class_sudoku_grid_1ac513a0a5270bd889e8490caa7035a413" kind="variable"><name>grid_square</name></member>
+    <member refid="class_sudoku_grid_1a02b7d232faea691feb464a942c4f8a2f" kind="variable"><name>start_position</name></member>
+    <member refid="class_sudoku_grid_1a6fc5a4e21c7d7f814db6ee993f59ec5d" kind="variable"><name>square_scale</name></member>
+    <member refid="class_sudoku_grid_1ac544483048e44ded02c16f360a2ac45d" kind="variable"><name>square_gap</name></member>
+    <member refid="class_sudoku_grid_1aa6751698c3ae9f0a05fece3f319767d3" kind="variable"><name>line_highlight_color</name></member>
+    <member refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" kind="variable"><name>grid_squares_</name></member>
+    <member refid="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" kind="variable"><name>selected_grid_data</name></member>
+    <member refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" kind="function"><name>Start</name></member>
+    <member refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" kind="function"><name>SetGridFormFile</name></member>
+    <member refid="class_sudoku_grid_1aeeac59ef90b422bd3837771a56f72e58" kind="function"><name>SetGridNotes</name></member>
+    <member refid="class_sudoku_grid_1a53215de8f4165f60565fe05a3e0cb4b7" kind="function"><name>Update</name></member>
+    <member refid="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" kind="function"><name>CreateGrid</name></member>
+    <member refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" kind="function"><name>spawnGridSquares</name></member>
+    <member refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" kind="function"><name>SetSquarePosition</name></member>
+    <member refid="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" kind="function"><name>SetGridNumber</name></member>
+    <member refid="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" kind="function"><name>setGridSquareData</name></member>
+    <member refid="class_sudoku_grid_1a34ab152871d62c1e2042b4f1c972b6c0" kind="function"><name>OnEnable</name></member>
+    <member refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" kind="function"><name>OnDisable</name></member>
+    <member refid="class_sudoku_grid_1a1f022aac634b4798458f44b32fe6cae3" kind="function"><name>SetSquaresColor</name></member>
+    <member refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" kind="function"><name>CheckBoardCompleted</name></member>
+    <member refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" kind="function"><name>OnSquareSelected</name></member>
+    <member refid="class_sudoku_grid_1a854f39bd3dd8834b09559309071585cd" kind="function"><name>SolveSudoku</name></member>
+  </compound>
+  <compound refid="class_sudoku_hard_data" kind="class"><name>SudokuHardData</name>
+    <member refid="class_sudoku_hard_data_1a6b3576049e27343361d5b6790e48967a" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="class_sudoku_medium_data" kind="class"><name>SudokuMediumData</name>
+    <member refid="class_sudoku_medium_data_1a7bd294971d83daef40c79be587404722" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="class_sudoku_very_hard_data" kind="class"><name>SudokuVeryHardData</name>
+    <member refid="class_sudoku_very_hard_data_1a0d13fb45734b90c1b3445d414a9a30c5" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_tele_type" kind="class"><name>TMPro::Examples::TeleType</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a51dff8db56be78d4bc721ca16e185b8c" kind="variable"><name>label01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a33c3497dfd3bd9a94d59e8e6dc3a4d8d" kind="variable"><name>label02</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1aaa5fbd230494861742a944fe80f1226b" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1a2941c99e0e5b66827cab3c48df12278a" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_tele_type_1ab60c17eaa598b380cb7ea3d0346f35fd" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator" kind="class"><name>TMPro::Examples::TextConsoleSimulator</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1ab8f4fe727e3181811083ba8577e3008c" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a0e350c103f20014f2efd7b98d9a1f3af" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1abbc6d2f5a25c301388f03bda7382bf07" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a83594792d8d11ed3a2d4b758ca7ee217" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1ad9bb1142c943693a7bbe56e04b48964d" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a94ced624d0ea2be830df1cd237b3a152" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a006cf2646d07f88b304fe360f2c24ac1" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1abb2ccedacf0ba2dfe698d60507e4dfec" kind="function"><name>RevealCharacters</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_console_simulator_1a3becab8f9f7e9f902a73247c2bcc9ec9" kind="function"><name>RevealWords</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text" kind="class"><name>TMPro::Examples::TextMeshProFloatingText</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a9bb498ea133aa1535bc4a6bdc76fa533" kind="variable"><name>TheFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1afa4a7158646022f85c2961f4a0edfb61" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a301544d6e8c542a6ed7faaaadaf2a6b3" kind="variable"><name>m_floatingText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a508d4d049c49e74757b0c9c662ba0f4f" kind="variable"><name>m_textMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a3ce8ff1ed7fa3998263d6a0a9855f1c7" kind="variable"><name>m_textMesh</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a16373b0064a29ebb506bcd293f28f8c6" kind="variable"><name>m_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a7ca532aa895847c94e8274018b6b7fe4" kind="variable"><name>m_floatingText_Transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a11ed6f58b4ccee4bbd07753374f1b9d0" kind="variable"><name>m_cameraTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1ac92be106c6daad064bf2c1a8275a5b4f" kind="variable"><name>lastPOS</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a0b00a2ba65cce9026243a1d2b5329eb9" kind="variable"><name>lastRotation</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a1fa7fb625c94c5c07325020bca35da52" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1adf09f894fc266a9d626e18ce2ef3a1f3" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a2d85960b568e04dd6dcd05db9c65fe69" kind="function"><name>DisplayTextMeshProFloatingText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_pro_floating_text_1a44484a164aa2ba2f4826a1d060a7ae5b" kind="function"><name>DisplayTextMeshFloatingText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner" kind="class"><name>TMPro::Examples::TextMeshSpawner</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1ab194341830ee5e784c176b8b516d6fe3" kind="variable"><name>SpawnType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a27f2e4feca0ce34a67de071e9e256bfb" kind="variable"><name>NumberOfNPC</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a5095e4cdcd5de19421b45082723ea30e" kind="variable"><name>TheFont</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a1c82276ccc1ddd5761a78b6e48be8541" kind="variable"><name>floatingText_Script</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a8c83bc49fd88b2cca7c317fe13a122f2" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_text_mesh_spawner_1a785c4650a74655c3511de4b05a82a421" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___digit_validator" kind="class"><name>TMPro::TMP_DigitValidator</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___digit_validator_1aee9e46839d4adef308831e5fcba40b0e" kind="function"><name>Validate</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01" kind="class"><name>TMPro::Examples::TMP_ExampleScript_01</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80" kind="enum"><name>objectType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80aa84491abd0130dee520f3055918599dd" kind="enumvalue"><name>TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a7581fa07718f773bf9347019769d2c80a4d47004d3bec07be8a80226b462ec62e" kind="enumvalue"><name>TextMeshProUGUI</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1aeb3d9e7c797f07f254f4f280467b7cee" kind="variable"><name>ObjectType</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a5d554a45b55df66f623b13ccb74d3455" kind="variable"><name>isStatic</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1aa01a999011188765bec2692ae268688b" kind="variable"><name>m_text</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a544b2c8a9c3f5cea86adc87fb23023b8" kind="variable"><name>k_label</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a1143f9bc8f88dd6da716bc495578b1e3" kind="variable"><name>count</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a192c22093a9eef79c995f068bb1199dc" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01_1a8595951a77c04c9de253f369f57b9833" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter" kind="class"><name>TMPro::Examples::TMP_FrameRateCounter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5ab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af5d815df33bfd48fcbca765dbdc1a6e5a9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae8d84e2e21d6d819d48f594b09b0319b" kind="variable"><name>UpdateInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a7c92928be05c154b10c2eb092425e865" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1afcd5f6127ceb5620ccca5c3ce9b82c6c" kind="variable"><name>m_LastInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a4d445f99bfb5528363429928cbe3c1a2" kind="variable"><name>m_Frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1af14a680010f2de9ba5ee089cbe758ccf" kind="variable"><name>htmlColorTag</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a6ebbaa72c5d2af277d9f87d7321429eb" kind="variable"><name>fpsLabel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ad4db98727cd1caf7a6bed4b08616df6a" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ae0f89bfbe75beb6de770d9f0de43ce2a" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a1a925b292ec5996f7810562d0d923963" kind="variable"><name>m_camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a9be938044167c740406c482be80dd79c" kind="variable"><name>last_AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1acf5f19371f84e3401672373517defdd1" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a9707b690b721e835d78734de69177079" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1a6a307d8f5eb11cb855a5e9823159d6bd" kind="function"><name>Update</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___frame_rate_counter_1ac5e4979da5b5514cb8c231d815670cae" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___phone_number_validator" kind="class"><name>TMPro::TMP_PhoneNumberValidator</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___phone_number_validator_1a7a812e1204c678ea3cf3258428a2b36f" kind="function"><name>Validate</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check" kind="class"><name>TMPro::Examples::TMP_TextEventCheck</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae23cb7bfed7c19448af70d9e7de12c95" kind="variable"><name>TextEventHandler</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1afb282ce69534c6284ed722e99e985652" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1abd8a09e902fa87f209c97da3e27e249c" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1aa628289191f4e07be9227d6e6c1412ba" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ae2c5dab169ac42313821c281473e2094" kind="function"><name>OnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1ac3cef6007b1bbef2c6ccb748c6fcb15f" kind="function"><name>OnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1a57df10d83c4ca2652de4d9d5b0c9abf7" kind="function"><name>OnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1a0fd5a44c55d48cc6897a98c3b4592f1a" kind="function"><name>OnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_event_check_1aab97e6b0fc4aa8714c56dce297a6d847" kind="function"><name>OnLinkSelection</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler" kind="class"><name>TMPro::TMP_TextEventHandler</name>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1adf246c6977702948b7ab987f34bf12a2" kind="property"><name>onCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a363991aa14af2f191cc7c77846c134f9" kind="property"><name>onSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aaba688a88f61b13eecf99e05725e6985" kind="property"><name>onWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1ae13d515549d0908bfaabb435239b59b0" kind="property"><name>onLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa2b47e6e7e685896cf95aa7386f8ab18" kind="property"><name>onLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a3fc9193fa2b29ed97e73e037e1e29f1f" kind="variable"><name>m_OnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa6842abfec96649588de0422f3848679" kind="variable"><name>m_OnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a6bab88c9b98153f85805838fab7c6af4" kind="variable"><name>m_OnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a0f1219e2cd6672584efe3240d1d1dd0b" kind="variable"><name>m_OnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a5c09f4c9ee868e4dede77967cdff2899" kind="variable"><name>m_OnLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1ab1182de0a6ced87206e1260b4e1d1515" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a316c024d55df84c4f33d7d5143c7955f" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a5fd5b58a306ec7fd6ce186e6aa0c0739" kind="variable"><name>m_Canvas</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a2091d9c27a1491c0857399396ec1ff4c" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a8c5ebc0971a592fd24402fb3257898a7" kind="variable"><name>m_lastCharIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a4f1edae5ad22db4cafbd7a2299599343" kind="variable"><name>m_lastWordIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a65523117f80e74fca4e782d11571663e" kind="variable"><name>m_lastLineIndex</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a79d79a41bd144ead1a7920503c0ed768" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a1b1c0ef737dddbb025de1a210fca24bd" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a326ef15970fea3bb9691b0a4fdb60208" kind="function"><name>SendOnCharacterSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1aa840f47968aa076bfd32b158c5b2d8c6" kind="function"><name>SendOnSpriteSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a6cec7c095a4e67726fa8da75b2969711" kind="function"><name>SendOnWordSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a4901e4c06758822083e3b96929c27567" kind="function"><name>SendOnLineSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a1d348fabb96666271c432640f4247345" kind="function"><name>SendOnLinkSelection</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a2aabc4e44e30d86b783edb3d4a2f2d9b" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1a0ad3fd5e712593130a9669706aa55906" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_info_debug_tool" kind="class"><name>TMPro::Examples::TMP_TextInfoDebugTool</name>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a" kind="class"><name>TMPro::Examples::TMP_TextSelector_A</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a6d794381b5ff8bfc42162427f94cd13d" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1abfeb964fda5ce70b6641aa50d5d11de1" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a842bc173daa86a306ab42055af4d9cdc" kind="variable"><name>m_isHoveringObject</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a18d127c46880c77a70a680f3b1281024" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1adeaae9c16325c986ad6ff87b81b77bb3" kind="variable"><name>m_lastCharIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1af3dfb5ac7002e769c990ea22d4171325" kind="variable"><name>m_lastWordIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a1feb6e51793c22491fa9e239acc44d27" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1ae02247155a02fcb4841c061a94b03c1f" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a41f448ef3c5dd89abfdcb8ded5c46d89" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___a_1a5214229e809ada98db644b76cbdf145a" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b" kind="class"><name>TMPro::Examples::TMP_TextSelector_B</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1afab51f8e6ae2f2c170a2fbee569f29d7" kind="variable"><name>TextPopup_Prefab_01</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a014942d86485bf0a962aba454c1a49b5" kind="variable"><name>m_TextPopup_RectTransform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad3a1c51fe717e5490f17240b610d1fd1" kind="variable"><name>m_TextPopup_TMPComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a4c8f925469d0800974c0c49f95cd2a0a" kind="variable"><name>k_LinkText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a12c8e39ffc69e07a346bc5f06bd62c8b" kind="variable"><name>k_WordText</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a5e4ec0a901707dc98ed6923a85ea2409" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9f66868c1f786f39bd011421a6e68738" kind="variable"><name>m_Canvas</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1aba3643c9554cb9eafa9668f7a0c23f94" kind="variable"><name>m_Camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a47c822eef42b100d1dff8af755ff7701" kind="variable"><name>isHoveringObject</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9fbbcf01d8c6902632fddb7ab5c95e57" kind="variable"><name>m_selectedWord</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a3838e328ea80d00173db573d04294c0f" kind="variable"><name>m_selectedLink</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a0b18f4d696ce15dfcd4deb7aa38b4160" kind="variable"><name>m_lastIndex</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1aaed1d8c14c79142ba5468b6157da8fbd" kind="variable"><name>m_matrix</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a24fc7c46e9057bbc8bb99b716a7b36b4" kind="variable"><name>m_cachedMeshInfoVertexData</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a5211a7b00934843886fb233af685fee5" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a843b01a3c9aa9d67141dad4f4e14a350" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a4f7946ba89595b7d49f626c762ae71af" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a63825ea0beb3c2879827bba4df898cd3" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9438ff90b28fc23cc6f9650547872ae1" kind="function"><name>LateUpdate</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a9e7267784ba9f40f798821bbc79e0b56" kind="function"><name>RestoreCachedVertexAttributes</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ae7830c3581122852db867ca0e728c2a8" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1adaec8e4a30998ce95981f29f92ced137" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1ad0a0f7e8a9485a0980bb873f31e18e41" kind="function"><name>OnPointerClick</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___text_selector___b_1a2e36cc0ea424f43ad1e4ca6e3cdcf1b0" kind="function"><name>OnPointerUp</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter" kind="class"><name>TMPro::Examples::TMP_UiFrameRateCounter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ece" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2eceab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1acd8edef652a3eca75ad3e389002d2ecea9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a826c5dd240c35cc3cec70d82d0e6d76e" kind="variable"><name>UpdateInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a1088605129e1b56d212d3dd4aa9d1e80" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa0a4c18ac66572a39932ee051ee42347" kind="variable"><name>m_LastInterval</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a15def6e4c1f2dabe6b5c09accd3214d4" kind="variable"><name>m_Frames</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a2cbc1725e08dd5ce8128da13d638d0f8" kind="variable"><name>htmlColorTag</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1ab8bab87cb36b2bc9965d457fb52bf000" kind="variable"><name>fpsLabel</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a9b8876219b8bea4c19e16a4ba44e54cd" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a998f5fd4b12e6e65d4aa3b30bd0b946f" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a7a0ceaadbbe57be4da25b914b1243713" kind="variable"><name>last_AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a63733cd9f5d1e78a990a482525bbbee9" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1aa9ff3b65ff7b296c647b5241b863d6ee" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a67a50a896baf5d72fefc16cc9d7087f2" kind="function"><name>Update</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_p___ui_frame_rate_counter_1a14ce96ceee956401615e16ad2709ab53" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay" kind="class"><name>TMPro::Examples::TMPro_InstructionOverlay</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415" kind="enum"><name>FpsCounterAnchorPositions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415ab32beb056fbfe36afbabc6c88c81ab36" kind="enumvalue"><name>TopLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a98e5a1c44509157ebcaf46c515c78875" kind="enumvalue"><name>BottomLeft</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a1d85a557894c340c318493f33bfa8efb" kind="enumvalue"><name>TopRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a857c25d1c96e819dc39011d143ce3415a9146bfc669fddc88db2c4d89297d0e9a" kind="enumvalue"><name>BottomRight</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a711b531b8ed7c421f67b1ee9b32b36dd" kind="variable"><name>AnchorPosition</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1ab92d76ac3e385ebe2707c2e67fb6f66f" kind="variable"><name>instructions</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1aba57a88e67df8155c4a8939d50e013c2" kind="variable"><name>m_TextMeshPro</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a70ecdc78a8ff70646d33412fac6d5947" kind="variable"><name>m_textContainer</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a92b1d17f2e6911e775485f7dde6cd16e" kind="variable"><name>m_frameCounter_transform</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a3488ab0ee8d1b9e35c9acd9f097cb077" kind="variable"><name>m_camera</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1afb58739e20ed8f89d916c4b3234df7bf" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_t_m_pro___instruction_overlay_1a5523290e9f3868aa26824851e50a895a" kind="function"><name>Set_FrameCounter_Position</name></member>
+  </compound>
+  <compound refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim" kind="struct"><name>TMPro::Examples::VertexJitter::VertexAnim</name>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1ad829f085baf9a3502c027a0ff26ea507" kind="variable"><name>angleRange</name></member>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1ae878879bcf64dac0b4200a981b11b2d2" kind="variable"><name>angle</name></member>
+    <member refid="struct_t_m_pro_1_1_examples_1_1_vertex_jitter_1_1_vertex_anim_1a3c8420566e44d2778a651b41e4977479" kind="variable"><name>speed</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler" kind="class"><name>TMPro::Examples::VertexColorCycler</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1abb28c5b9ecd666852945c364b21ebfc4" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a1803068f22f82161b412719efc891367" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a057df06b22c8de255d8d191ae6313e6a" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_color_cycler_1a22a41f2f64cdf007330973d283d61d8e" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter" kind="class"><name>TMPro::Examples::VertexJitter</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a48aa2f5018ce1f57c68b316cfc5a76d0" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a5470bb01ad13ec8b9dab328468bc454d" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a2950cda059be7e08282d0caee720df49" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1ae3d9dc852d637312afdb59a5075f110f" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1af5b1b70324ca99a72d08112cf9d84f3e" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1acf1d10a2af619e8aa78dbbfaf28bfd4c" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1ad8d8903bc7884311367dc27f671d997e" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a4c293b6718acf646763f16e07ad323b0" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a6ce5c9ed7071b268a96cf7efbce68f79" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a25adec7aee0f1ae6bde268e58558e415" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_jitter_1a65fcba6ff345a1a527b236c6166de696" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a" kind="class"><name>TMPro::Examples::VertexShakeA</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a8a3fca222f496902c262c53683d3f94e" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a10bf945b918292c2ea7552dd86f6a4ec" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a9e03d577c862b3b95e7309143c0a1d74" kind="variable"><name>ScaleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4bd4cb50926999b1a1ac59da8fcf7f1" kind="variable"><name>RotationMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a845dda579f40696499892752906c379b" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a554a287c0cb156e0841a1ae739678e53" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1afe818fb4181d5bd00ad19354557d5ef2" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab7965dbe6dfa2e4799b76201f980b88a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a5d692977725badca45d7d8e068014882" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a07dd4922f2071e1fcf572f56c6aa0839" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1ab4e830d5f8b067d607643fcb66cbe178" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_a_1a41614ab9364a34655672675eca5d16d0" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b" kind="class"><name>TMPro::Examples::VertexShakeB</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a25046a446241c10abe00a455b8860c7f" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac278e62e3d4b818697ca09ee9bbcfc77" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ab3c2718cdb0b13d63b37cc869801ce88" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ae2bac31df0412569300d2d41d2e13215" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a9110da56680292f501f793487dfc7628" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a64ca4dc3d37d31519af3d447c47b8ccd" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a022c31095ef481c0768de6200f880342" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a45a9ed296c60f2aba5ae44ac8ecb6eac" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a395152a6d91d164385b47dd04174d231" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1ac12756ad22c4a9ee5ed2763faa1b1b01" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_shake_b_1a550c38b1fda64b77f736a48470dfb649" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom" kind="class"><name>TMPro::Examples::VertexZoom</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1aae60c19f9d9352acb093ae262c0759a5" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a4ba5dc7acf25ea2b07b1b872050b9fa3" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1aaaaaeb0655b1d974a085b416c2e13522" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a147cc26618cf8dc27160d5d8f0c3c390" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a7a55845140cc6ad934c37625429f79ec" kind="variable"><name>hasTextChanged</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1abb4237ecd84b842bda3e9ae5fb743875" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a3598f7dce190f79459fed17ab712ab88" kind="function"><name>OnEnable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a1a11499abadd4c3a18bc271fb8818c59" kind="function"><name>OnDisable</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1ae2aa77d1c57048835cfabff3588f6b58" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a083e2d4151d80b31382f327a34122e07" kind="function"><name>ON_TEXT_CHANGED</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_vertex_zoom_1a0fc98ad8ed9f103145f1dfe96540e88a" kind="function"><name>AnimateVertexColors</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_examples_1_1_warp_text_example" kind="class"><name>TMPro::Examples::WarpTextExample</name>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a31c953d43370a467cf9d3309623d3887" kind="variable"><name>m_TextComponent</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aa95fcb47fe116dd3890a0f92106a6602" kind="variable"><name>VertexCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a99104ed4ea6b2676485a40e555388f54" kind="variable"><name>AngleMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1ae02c88a8c8958d8a2343a75897ef400e" kind="variable"><name>SpeedMultiplier</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aa76e772eda39a25ba1d9f033f6fc516c" kind="variable"><name>CurveScale</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1a27ab4bde9d74741085a42c2360c37f1e" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1acdd83c2d233bf73c9c6da7ee51b1bc3c" kind="function"><name>Start</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1ad1b1c7fe6b7e59498268a47006da09a8" kind="function"><name>CopyAnimationCurve</name></member>
+    <member refid="class_t_m_pro_1_1_examples_1_1_warp_text_example_1aefa5d7333e89c48b4f6df00d61d6e1c4" kind="function"><name>WarpText</name></member>
+  </compound>
+  <compound refid="class_t_m_pro_1_1_t_m_p___text_event_handler_1_1_word_selection_event" kind="class"><name>TMPro::TMP_TextEventHandler::WordSelectionEvent</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_t_m_pro_1_1_examples" kind="namespace"><name>TMPro::Examples</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_audio" kind="namespace"><name>UnityEngine::Audio</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_event_systems" kind="namespace"><name>UnityEngine::EventSystems</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_text_core_1_1_low_level" kind="namespace"><name>UnityEngine::TextCore::LowLevel</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_clock_8cs" kind="file"><name>Clock.cs</name>
+  </compound>
+  <compound refid="_config_8cs" kind="file"><name>Config.cs</name>
+  </compound>
+  <compound refid="_continue_button_8cs" kind="file"><name>ContinueButton.cs</name>
+  </compound>
+  <compound refid="_exit_game_8cs" kind="file"><name>ExitGame.cs</name>
+  </compound>
+  <compound refid="_game_events_8cs" kind="file"><name>GameEvents.cs</name>
+  </compound>
+  <compound refid="_game_over_menu_8cs" kind="file"><name>GameOverMenu.cs</name>
+  </compound>
+  <compound refid="_game_settings_8cs" kind="file"><name>GameSettings.cs</name>
+  </compound>
+  <compound refid="_game_won_8cs" kind="file"><name>GameWon.cs</name>
+  </compound>
+  <compound refid="_grid_square_8cs" kind="file"><name>GridSquare.cs</name>
+  </compound>
+  <compound refid="_line_indicator_8cs" kind="file"><name>LineIndicator.cs</name>
+  </compound>
+  <compound refid="_lives_8cs" kind="file"><name>Lives.cs</name>
+  </compound>
+  <compound refid="_menu_buttons_8cs" kind="file"><name>MenuButtons.cs</name>
+  </compound>
+  <compound refid="_menu_handler_8cs" kind="file"><name>MenuHandler.cs</name>
+  </compound>
+  <compound refid="_note_button_8cs" kind="file"><name>NoteButton.cs</name>
+  </compound>
+  <compound refid="_number_button_8cs" kind="file"><name>NumberButton.cs</name>
+  </compound>
+  <compound refid="_pause_8cs" kind="file"><name>Pause.cs</name>
+  </compound>
+  <compound refid="_pause_handler_8cs" kind="file"><name>PauseHandler.cs</name>
+  </compound>
+  <compound refid="_pause_menu_8cs" kind="file"><name>PauseMenu.cs</name>
+  </compound>
+  <compound refid="_rubber_button_8cs" kind="file"><name>RubberButton.cs</name>
+  </compound>
+  <compound refid="_sudoku_data_8cs" kind="file"><name>SudokuData.cs</name>
+  </compound>
+  <compound refid="_sudoku_grid_8cs" kind="file"><name>SudokuGrid.cs</name>
+  </compound>
+  <compound refid="_benchmark01_8cs" kind="file"><name>Benchmark01.cs</name>
+  </compound>
+  <compound refid="_benchmark01___u_g_u_i_8cs" kind="file"><name>Benchmark01_UGUI.cs</name>
+  </compound>
+  <compound refid="_benchmark02_8cs" kind="file"><name>Benchmark02.cs</name>
+  </compound>
+  <compound refid="_benchmark03_8cs" kind="file"><name>Benchmark03.cs</name>
+  </compound>
+  <compound refid="_benchmark04_8cs" kind="file"><name>Benchmark04.cs</name>
+  </compound>
+  <compound refid="_camera_controller_8cs" kind="file"><name>CameraController.cs</name>
+  </compound>
+  <compound refid="_chat_controller_8cs" kind="file"><name>ChatController.cs</name>
+  </compound>
+  <compound refid="_dropdown_sample_8cs" kind="file"><name>DropdownSample.cs</name>
+  </compound>
+  <compound refid="_env_map_animator_8cs" kind="file"><name>EnvMapAnimator.cs</name>
+  </compound>
+  <compound refid="_object_spin_8cs" kind="file"><name>ObjectSpin.cs</name>
+  </compound>
+  <compound refid="_shader_prop_animator_8cs" kind="file"><name>ShaderPropAnimator.cs</name>
+  </compound>
+  <compound refid="_simple_script_8cs" kind="file"><name>SimpleScript.cs</name>
+  </compound>
+  <compound refid="_skew_text_example_8cs" kind="file"><name>SkewTextExample.cs</name>
+  </compound>
+  <compound refid="_tele_type_8cs" kind="file"><name>TeleType.cs</name>
+  </compound>
+  <compound refid="_text_console_simulator_8cs" kind="file"><name>TextConsoleSimulator.cs</name>
+  </compound>
+  <compound refid="_text_mesh_pro_floating_text_8cs" kind="file"><name>TextMeshProFloatingText.cs</name>
+  </compound>
+  <compound refid="_text_mesh_spawner_8cs" kind="file"><name>TextMeshSpawner.cs</name>
+  </compound>
+  <compound refid="_t_m_p___digit_validator_8cs" kind="file"><name>TMP_DigitValidator.cs</name>
+  </compound>
+  <compound refid="_t_m_p___example_script__01_8cs" kind="file"><name>TMP_ExampleScript_01.cs</name>
+  </compound>
+  <compound refid="_t_m_p___frame_rate_counter_8cs" kind="file"><name>TMP_FrameRateCounter.cs</name>
+  </compound>
+  <compound refid="_t_m_p___phone_number_validator_8cs" kind="file"><name>TMP_PhoneNumberValidator.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_event_check_8cs" kind="file"><name>TMP_TextEventCheck.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_event_handler_8cs" kind="file"><name>TMP_TextEventHandler.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_info_debug_tool_8cs" kind="file"><name>TMP_TextInfoDebugTool.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_selector___a_8cs" kind="file"><name>TMP_TextSelector_A.cs</name>
+  </compound>
+  <compound refid="_t_m_p___text_selector___b_8cs" kind="file"><name>TMP_TextSelector_B.cs</name>
+  </compound>
+  <compound refid="_t_m_p___ui_frame_rate_counter_8cs" kind="file"><name>TMP_UiFrameRateCounter.cs</name>
+  </compound>
+  <compound refid="_t_m_pro___instruction_overlay_8cs" kind="file"><name>TMPro_InstructionOverlay.cs</name>
+  </compound>
+  <compound refid="_vertex_color_cycler_8cs" kind="file"><name>VertexColorCycler.cs</name>
+  </compound>
+  <compound refid="_vertex_jitter_8cs" kind="file"><name>VertexJitter.cs</name>
+  </compound>
+  <compound refid="_vertex_shake_a_8cs" kind="file"><name>VertexShakeA.cs</name>
+  </compound>
+  <compound refid="_vertex_shake_b_8cs" kind="file"><name>VertexShakeB.cs</name>
+  </compound>
+  <compound refid="_vertex_zoom_8cs" kind="file"><name>VertexZoom.cs</name>
+  </compound>
+  <compound refid="_warp_text_example_8cs" kind="file"><name>WarpTextExample.cs</name>
+  </compound>
+  <compound refid="dir_8751f04bd69b0c36480ff7dde34cf791" kind="dir"><name>D:/GitHub/2DPuzzleGame</name>
+  </compound>
+  <compound refid="dir_f8c09794b8bc56f5da079e3baeb586f2" kind="dir"><name>D:/GitHub/2DPuzzleGame/Assets</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_7ca211cb569a002f6c1c8e77bb5ef9bc" kind="dir"><name>D:/GitHub/2DPuzzleGame/Assets/TextMesh Pro/Examples &amp; Extras</name>
+  </compound>
+  <compound refid="dir_eb46cee47d59baf2f3d3a9239acb1efa" kind="dir"><name>D:/GitHub</name>
+  </compound>
+  <compound refid="dir_26910f77a62385a354a6c3579f8bfd61" kind="dir"><name>D:/GitHub/2DPuzzleGame/Assets/TextMesh Pro/Examples &amp; Extras/Scripts</name>
+  </compound>
+  <compound refid="dir_1ee929367f56d7223e9728b37e9efee6" kind="dir"><name>D:/GitHub/2DPuzzleGame/Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_26604e6fdd3c006e1fe9592a10648c99" kind="dir"><name>D:/GitHub/2DPuzzleGame/Assets/TextMesh Pro</name>
+  </compound>
+</doxygenindex>

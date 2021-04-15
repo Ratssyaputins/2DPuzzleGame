@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_grid_square" kind="class" prot="public">
+    <compoundname>GridSquare</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Selectable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISubmitHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerUpHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_grid_square_1a8083ecc58295776e4aa733958acec42e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GridSquare.number_text</definition>
+        <argsstring></argsstring>
+        <name>number_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="10" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; GridSquare.number_notes</definition>
+        <argsstring></argsstring>
+        <name>number_notes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="11" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1a76900c497d8d2de97349a9dcb992500b" compoundref="_grid_square_8cs" startline="68" endline="77">GetSquareNotes</referencedby>
+        <referencedby refid="class_grid_square_1a9cb4c30921c8910df72cbb303fe2c2c1" compoundref="_grid_square_8cs" startline="79" endline="86">SetClearEmptyNotes</referencedby>
+        <referencedby refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" compoundref="_grid_square_8cs" startline="88" endline="97">SetNoteNumberValue</referencedby>
+        <referencedby refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" compoundref="_grid_square_8cs" startline="99" endline="112">SetNoteSingleNumberValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GridSquare.note_active</definition>
+        <argsstring></argsstring>
+        <name>note_active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="12" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" compoundref="_grid_square_8cs" startline="122" endline="125">OnNotesActive</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" compoundref="_grid_square_8cs" startline="99" endline="112">SetNoteSingleNumberValue</referencedby>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GridSquare.number_</definition>
+        <argsstring></argsstring>
+        <name>number_</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="13" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1af79bc723552985c5776336a34b617493" compoundref="_grid_square_8cs" startline="127" endline="133">DisplayText</referencedby>
+        <referencedby refid="class_grid_square_1a5e3590081b5cee497da211b17183a659" compoundref="_grid_square_8cs" startline="21" endline="21">GetSquareNumber</referencedby>
+        <referencedby refid="class_grid_square_1ae41dcd48ae02bb70a6fa4c9e5c0dd6db" compoundref="_grid_square_8cs" startline="22" endline="22">IsCorrectNumberSet</referencedby>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" compoundref="_grid_square_8cs" startline="36" endline="47">SetCorrectNumber</referencedby>
+        <referencedby refid="class_grid_square_1ac54128efa02005260792c72abad3a99b" compoundref="_grid_square_8cs" startline="135" endline="140">SetNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GridSquare.correct_number_</definition>
+        <argsstring></argsstring>
+        <name>correct_number_</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="14" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1ae41dcd48ae02bb70a6fa4c9e5c0dd6db" compoundref="_grid_square_8cs" startline="22" endline="22">IsCorrectNumberSet</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" compoundref="_grid_square_8cs" startline="36" endline="47">SetCorrectNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GridSquare.selected_</definition>
+        <argsstring></argsstring>
+        <name>selected_</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="16" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1a335de5fcc8801e9901c9ae37d870961e" compoundref="_grid_square_8cs" startline="30" endline="30">IsSelected</referencedby>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1ad8d047e06c523a4bd4e4e82df73e5a9e" compoundref="_grid_square_8cs" startline="142" endline="146">OnPointerClick</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" compoundref="_grid_square_8cs" startline="218" endline="224">OnSquareSelected</referencedby>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GridSquare.square_index_</definition>
+        <argsstring></argsstring>
+        <name>square_index_</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="17" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1ad8d047e06c523a4bd4e4e82df73e5a9e" compoundref="_grid_square_8cs" startline="142" endline="146">OnPointerClick</referencedby>
+        <referencedby refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" compoundref="_grid_square_8cs" startline="218" endline="224">OnSquareSelected</referencedby>
+        <referencedby refid="class_grid_square_1a7c7a7610c6b67124039b67dbe5260881" compoundref="_grid_square_8cs" startline="31" endline="34">SetSquareIndex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GridSquare.has_default_value_</definition>
+        <argsstring></argsstring>
+        <name>has_default_value_</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="18" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1a7164b1893aab8748407ec14a790357ab" compoundref="_grid_square_8cs" startline="26" endline="26">GetHasDefaultValue</referencedby>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1ae5aefcd92f9e65325dd6e1293c7ec575" compoundref="_grid_square_8cs" startline="25" endline="25">SetHasDefaultValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GridSquare.has_wrong_value_</definition>
+        <argsstring></argsstring>
+        <name>has_wrong_value_</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="19" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_grid_square_1ae9098798b1470ae779c496a17cfebb7b" compoundref="_grid_square_8cs" startline="24" endline="24">HasWrongValue</referencedby>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" compoundref="_grid_square_8cs" startline="36" endline="47">SetCorrectNumber</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grid_square_1a5e3590081b5cee497da211b17183a659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GridSquare.GetSquareNumber</definition>
+        <argsstring>()</argsstring>
+        <name>GetSquareNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="21" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="21" bodyend="21"/>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ae41dcd48ae02bb70a6fa4c9e5c0dd6db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridSquare.IsCorrectNumberSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsCorrectNumberSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="22" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="22" bodyend="22"/>
+        <references refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" compoundref="_grid_square_8cs" startline="14">correct_number_</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ae9098798b1470ae779c496a17cfebb7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridSquare.HasWrongValue</definition>
+        <argsstring>()</argsstring>
+        <name>HasWrongValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="24" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="24" bodyend="24"/>
+        <references refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" compoundref="_grid_square_8cs" startline="19">has_wrong_value_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ae5aefcd92f9e65325dd6e1293c7ec575" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetHasDefaultValue</definition>
+        <argsstring>(bool has_default)</argsstring>
+        <name>SetHasDefaultValue</name>
+        <param>
+          <type>bool</type>
+          <declname>has_default</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="25" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="25" bodyend="25"/>
+        <references refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" compoundref="_grid_square_8cs" startline="18">has_default_value_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a7164b1893aab8748407ec14a790357ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridSquare.GetHasDefaultValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetHasDefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="26" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="26" bodyend="26"/>
+        <references refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" compoundref="_grid_square_8cs" startline="18">has_default_value_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a335de5fcc8801e9901c9ae37d870961e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GridSquare.IsSelected</definition>
+        <argsstring>()</argsstring>
+        <name>IsSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="30" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="30" bodyend="30"/>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a7c7a7610c6b67124039b67dbe5260881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetSquareIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>SetSquareIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="31" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="31" bodyend="34"/>
+        <references refid="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" compoundref="_grid_square_8cs" startline="17">square_index_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetCorrectNumber</definition>
+        <argsstring>(int number)</argsstring>
+        <name>SetCorrectNumber</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="36" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="36" bodyend="47"/>
+        <references refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" compoundref="_grid_square_8cs" startline="14">correct_number_</references>
+        <references refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" compoundref="_grid_square_8cs" startline="19">has_wrong_value_</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <references refid="class_grid_square_1a99fcc84be0ea6fdea46c9871367ed4d1" compoundref="_grid_square_8cs" startline="225" endline="230">SetSquareColour</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ac71be3686965a9ae4e1608f9e2d6919a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetCorrectNumber</definition>
+        <argsstring>()</argsstring>
+        <name>SetCorrectNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="49" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="49" bodyend="54"/>
+        <references refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" compoundref="_grid_square_8cs" startline="14">correct_number_</references>
+        <references refid="class_grid_square_1af79bc723552985c5776336a34b617493" compoundref="_grid_square_8cs" startline="127" endline="133">DisplayText</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <references refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" compoundref="_grid_square_8cs" startline="88" endline="97">SetNoteNumberValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a76900c497d8d2de97349a9dcb992500b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; GridSquare.GetSquareNotes</definition>
+        <argsstring>()</argsstring>
+        <name>GetSquareNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="68" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="68" bodyend="77"/>
+        <references refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" compoundref="_grid_square_8cs" startline="11">number_notes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ad449e2f14105b61b17113bdc32d97d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetGridNotes</definition>
+        <argsstring>(List&lt; int &gt; notes)</argsstring>
+        <name>SetGridNotes</name>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>notes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="114" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="114" bodyend="120"/>
+        <references refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" compoundref="_grid_square_8cs" startline="99" endline="112">SetNoteSingleNumberValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnNotesActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>OnNotesActive</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="122" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="122" bodyend="125"/>
+        <references refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" compoundref="_grid_square_8cs" startline="12">note_active</references>
+        <referencedby refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" compoundref="_grid_square_8cs" startline="162" endline="168">OnDisable</referencedby>
+        <referencedby refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" compoundref="_grid_square_8cs" startline="153" endline="159">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1af79bc723552985c5776336a34b617493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.DisplayText</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="127" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="127" bodyend="133"/>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1ac71be3686965a9ae4e1608f9e2d6919a" compoundref="_grid_square_8cs" startline="49" endline="54">SetCorrectNumber</referencedby>
+        <referencedby refid="class_grid_square_1ac54128efa02005260792c72abad3a99b" compoundref="_grid_square_8cs" startline="135" endline="140">SetNumber</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ac54128efa02005260792c72abad3a99b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetNumber</definition>
+        <argsstring>(int number)</argsstring>
+        <name>SetNumber</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="135" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="135" bodyend="140"/>
+        <references refid="class_grid_square_1af79bc723552985c5776336a34b617493" compoundref="_grid_square_8cs" startline="127" endline="133">DisplayText</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1ad8d047e06c523a4bd4e4e82df73e5a9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="142" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="142" bodyend="146"/>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+        <references refid="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" compoundref="_grid_square_8cs" startline="17">square_index_</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a3aff5f72f06ac20eb6164939414e9127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnSubmit</definition>
+        <argsstring>(BaseEventData eventData)</argsstring>
+        <name>OnSubmit</name>
+        <param>
+          <type>BaseEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="148" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="153" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="153" bodyend="159"/>
+        <references refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</references>
+        <references refid="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" compoundref="_grid_square_8cs" startline="122" endline="125">OnNotesActive</references>
+        <references refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</references>
+        <references refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" compoundref="_grid_square_8cs" startline="218" endline="224">OnSquareSelected</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a1a986ba3187cd959d595492f412482dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="162" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="162" bodyend="168"/>
+        <references refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</references>
+        <references refid="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" compoundref="_grid_square_8cs" startline="122" endline="125">OnNotesActive</references>
+        <references refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</references>
+        <references refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" compoundref="_grid_square_8cs" startline="218" endline="224">OnSquareSelected</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnClearNumber</definition>
+        <argsstring>()</argsstring>
+        <name>OnClearNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="170" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="170" bodyend="181"/>
+        <references refid="class_grid_square_1af79bc723552985c5776336a34b617493" compoundref="_grid_square_8cs" startline="127" endline="133">DisplayText</references>
+        <references refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" compoundref="_grid_square_8cs" startline="18">has_default_value_</references>
+        <references refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" compoundref="_grid_square_8cs" startline="19">has_wrong_value_</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+        <references refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" compoundref="_grid_square_8cs" startline="88" endline="97">SetNoteNumberValue</references>
+        <references refid="class_grid_square_1a99fcc84be0ea6fdea46c9871367ed4d1" compoundref="_grid_square_8cs" startline="225" endline="230">SetSquareColour</references>
+        <referencedby refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" compoundref="_grid_square_8cs" startline="162" endline="168">OnDisable</referencedby>
+        <referencedby refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" compoundref="_grid_square_8cs" startline="153" endline="159">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnSetNumber</definition>
+        <argsstring>(int number)</argsstring>
+        <name>OnSetNumber</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="182" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="182" bodyend="216"/>
+        <references refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" compoundref="_grid_square_8cs" startline="14">correct_number_</references>
+        <references refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" compoundref="_grid_square_8cs" startline="18">has_default_value_</references>
+        <references refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" compoundref="_grid_square_8cs" startline="19">has_wrong_value_</references>
+        <references refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" compoundref="_grid_square_8cs" startline="12">note_active</references>
+        <references refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" compoundref="_grid_square_8cs" startline="13">number_</references>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+        <references refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" compoundref="_grid_square_8cs" startline="88" endline="97">SetNoteNumberValue</references>
+        <references refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" compoundref="_grid_square_8cs" startline="99" endline="112">SetNoteSingleNumberValue</references>
+        <references refid="class_grid_square_1ac54128efa02005260792c72abad3a99b" compoundref="_grid_square_8cs" startline="135" endline="140">SetNumber</references>
+        <referencedby refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" compoundref="_grid_square_8cs" startline="162" endline="168">OnDisable</referencedby>
+        <referencedby refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" compoundref="_grid_square_8cs" startline="153" endline="159">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.OnSquareSelected</definition>
+        <argsstring>(int square_index)</argsstring>
+        <name>OnSquareSelected</name>
+        <param>
+          <type>int</type>
+          <declname>square_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="218" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="218" bodyend="224"/>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+        <references refid="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" compoundref="_grid_square_8cs" startline="17">square_index_</references>
+        <referencedby refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" compoundref="_grid_square_8cs" startline="162" endline="168">OnDisable</referencedby>
+        <referencedby refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" compoundref="_grid_square_8cs" startline="153" endline="159">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a99fcc84be0ea6fdea46c9871367ed4d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetSquareColour</definition>
+        <argsstring>(Color col)</argsstring>
+        <name>SetSquareColour</name>
+        <param>
+          <type>Color</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="225" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="225" bodyend="230"/>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" compoundref="_grid_square_8cs" startline="36" endline="47">SetCorrectNumber</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="57" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="57" bodyend="66"/>
+        <references refid="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" compoundref="_game_settings_8cs" startline="52" endline="55">GameSettings.GetContinuePreviousGame</references>
+        <references refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" compoundref="_game_settings_8cs" startline="16">GameSettings.Instance</references>
+        <references refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" compoundref="_grid_square_8cs" startline="12">note_active</references>
+        <references refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" compoundref="_grid_square_8cs" startline="16">selected_</references>
+        <references refid="class_grid_square_1a9cb4c30921c8910df72cbb303fe2c2c1" compoundref="_grid_square_8cs" startline="79" endline="86">SetClearEmptyNotes</references>
+        <references refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" compoundref="_grid_square_8cs" startline="88" endline="97">SetNoteNumberValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a9cb4c30921c8910df72cbb303fe2c2c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetClearEmptyNotes</definition>
+        <argsstring>()</argsstring>
+        <name>SetClearEmptyNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="79" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="79" bodyend="86"/>
+        <references refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" compoundref="_grid_square_8cs" startline="11">number_notes</references>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetNoteNumberValue</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SetNoteNumberValue</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="88" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="88" bodyend="97"/>
+        <references refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" compoundref="_grid_square_8cs" startline="11">number_notes</references>
+        <referencedby refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" compoundref="_grid_square_8cs" startline="170" endline="181">OnClearNumber</referencedby>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1ac71be3686965a9ae4e1608f9e2d6919a" compoundref="_grid_square_8cs" startline="49" endline="54">SetCorrectNumber</referencedby>
+        <referencedby refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" compoundref="_grid_square_8cs" startline="57" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridSquare.SetNoteSingleNumberValue</definition>
+        <argsstring>(int value, bool force_update=false)</argsstring>
+        <name>SetNoteSingleNumberValue</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_update</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="99" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="99" bodyend="112"/>
+        <references refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" compoundref="_grid_square_8cs" startline="12">note_active</references>
+        <references refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" compoundref="_grid_square_8cs" startline="11">number_notes</references>
+        <referencedby refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" compoundref="_grid_square_8cs" startline="182" endline="216">OnSetNumber</referencedby>
+        <referencedby refid="class_grid_square_1ad449e2f14105b61b17113bdc32d97d88" compoundref="_grid_square_8cs" startline="114" endline="120">SetGridNotes</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>ISubmitHandler</label>
+      </node>
+      <node id="73">
+        <label>GridSquare</label>
+        <link refid="class_grid_square"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="74">
+        <label>Selectable</label>
+      </node>
+      <node id="78">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="77">
+        <label>IPointerUpHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>ISubmitHandler</label>
+      </node>
+      <node id="79">
+        <label>GridSquare</label>
+        <link refid="class_grid_square"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="80">
+        <label>Selectable</label>
+      </node>
+      <node id="84">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="83">
+        <label>IPointerUpHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" line="9" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GridSquare.cs" bodystart="8" bodyend="231"/>
+    <listofallmembers>
+      <member refid="class_grid_square_1a23ff5bfc7ac9219ba6f9774556715881" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>correct_number_</name></member>
+      <member refid="class_grid_square_1af79bc723552985c5776336a34b617493" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>DisplayText</name></member>
+      <member refid="class_grid_square_1a7164b1893aab8748407ec14a790357ab" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>GetHasDefaultValue</name></member>
+      <member refid="class_grid_square_1a76900c497d8d2de97349a9dcb992500b" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>GetSquareNotes</name></member>
+      <member refid="class_grid_square_1a5e3590081b5cee497da211b17183a659" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>GetSquareNumber</name></member>
+      <member refid="class_grid_square_1ac5a099517cff0ec14991ce60b649f4c8" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>has_default_value_</name></member>
+      <member refid="class_grid_square_1ac6dbd8d0e3de2c3be25d00ca3ecc4090" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>has_wrong_value_</name></member>
+      <member refid="class_grid_square_1ae9098798b1470ae779c496a17cfebb7b" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>HasWrongValue</name></member>
+      <member refid="class_grid_square_1ae41dcd48ae02bb70a6fa4c9e5c0dd6db" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>IsCorrectNumberSet</name></member>
+      <member refid="class_grid_square_1a335de5fcc8801e9901c9ae37d870961e" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>IsSelected</name></member>
+      <member refid="class_grid_square_1aefddde63881c0825c452f41e50b9cdcf" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>note_active</name></member>
+      <member refid="class_grid_square_1ac66f6601fef5dfd437ccc88cdb27dc1d" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>number_</name></member>
+      <member refid="class_grid_square_1a8095d4c7e305c847d34185ea2d0c7023" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>number_notes</name></member>
+      <member refid="class_grid_square_1a8083ecc58295776e4aa733958acec42e" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>number_text</name></member>
+      <member refid="class_grid_square_1a0bd5c0d0ce2ae3425d3186223ad6705e" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnClearNumber</name></member>
+      <member refid="class_grid_square_1a1a986ba3187cd959d595492f412482dd" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnDisable</name></member>
+      <member refid="class_grid_square_1a5503cee7440a964bbf874843c3e298d0" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnEnable</name></member>
+      <member refid="class_grid_square_1a28310b03a64b94e5f153d7a63243c72d" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnNotesActive</name></member>
+      <member refid="class_grid_square_1ad8d047e06c523a4bd4e4e82df73e5a9e" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnPointerClick</name></member>
+      <member refid="class_grid_square_1abf9a8367abf03cd0a117347a7326cd57" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnSetNumber</name></member>
+      <member refid="class_grid_square_1a6fb3a05b7f2b23392b8b3619f18914cb" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnSquareSelected</name></member>
+      <member refid="class_grid_square_1a3aff5f72f06ac20eb6164939414e9127" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>OnSubmit</name></member>
+      <member refid="class_grid_square_1a77bd1a13fa4fa2b2da3ab87fa45f6464" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>selected_</name></member>
+      <member refid="class_grid_square_1a9cb4c30921c8910df72cbb303fe2c2c1" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>SetClearEmptyNotes</name></member>
+      <member refid="class_grid_square_1a8ea3447b6af9f111f2e97b8765ecb874" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetCorrectNumber</name></member>
+      <member refid="class_grid_square_1ac71be3686965a9ae4e1608f9e2d6919a" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetCorrectNumber</name></member>
+      <member refid="class_grid_square_1ad449e2f14105b61b17113bdc32d97d88" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetGridNotes</name></member>
+      <member refid="class_grid_square_1ae5aefcd92f9e65325dd6e1293c7ec575" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetHasDefaultValue</name></member>
+      <member refid="class_grid_square_1a3398d1a483f2855d66c066d6a47b7e58" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>SetNoteNumberValue</name></member>
+      <member refid="class_grid_square_1a9e16bcd256e8c9356219bf3ff76506cd" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>SetNoteSingleNumberValue</name></member>
+      <member refid="class_grid_square_1ac54128efa02005260792c72abad3a99b" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetNumber</name></member>
+      <member refid="class_grid_square_1a99fcc84be0ea6fdea46c9871367ed4d1" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetSquareColour</name></member>
+      <member refid="class_grid_square_1a7c7a7610c6b67124039b67dbe5260881" prot="public" virt="non-virtual"><scope>GridSquare</scope><name>SetSquareIndex</name></member>
+      <member refid="class_grid_square_1ad3f80cbfe4bc12ea4822e0ff0a2d721d" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>square_index_</name></member>
+      <member refid="class_grid_square_1ad60b5764f50afb4c8541cc200b30f350" prot="private" virt="non-virtual"><scope>GridSquare</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

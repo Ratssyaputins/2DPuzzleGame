@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause_menu" kind="class" prot="public">
+    <compoundname>PauseMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_menu_1af73a258705d2a70d1988141a40b0d894" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text PauseMenu.time_text</definition>
+        <argsstring></argsstring>
+        <name>time_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" line="8" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pause_menu_1a37a12a4d6ef0a22c1463a95e0eb1ca67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.DisplayTime</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" line="10" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="139">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" line="7" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/PauseMenu.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_pause_menu_1a37a12a4d6ef0a22c1463a95e0eb1ca67" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>DisplayTime</name></member>
+      <member refid="class_pause_menu_1af73a258705d2a70d1988141a40b0d894" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>time_text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

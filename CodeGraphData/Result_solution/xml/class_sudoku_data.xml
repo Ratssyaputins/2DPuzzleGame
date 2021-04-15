@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sudoku_data" kind="class" prot="public">
+    <compoundname>SudokuData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="struct_sudoku_data_1_1_sudoku_board_data" prot="public">SudokuData::SudokuBoardData</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_sudoku_data_1a1f75d0b9c9888bfcafaa007dad11b4ee" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_sudoku_data" kindref="compound">SudokuData</ref></type>
+        <definition>SudokuData SudokuData.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+<para>Defines the Instance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="896" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="896" bodyend="-1"/>
+        <referencedby refid="class_sudoku_data_1a650050b461d4e458c024ab20fc9c7fb6" compoundref="_sudoku_data_8cs" startline="934" endline="942">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sudoku_data_1aedb0063fdca17199539c92e1526511e4" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, List&lt; <ref refid="struct_sudoku_data_1_1_sudoku_board_data" kindref="compound">SudokuBoardData</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;SudokuBoardData&gt; &gt; SudokuData.sudoku_game</definition>
+        <argsstring></argsstring>
+        <name>sudoku_game</name>
+        <initializer>= new Dictionary&lt;string, List&lt;<ref refid="struct_sudoku_data_1_1_sudoku_board_data" kindref="compound">SudokuBoardData</ref>&gt;&gt;()</initializer>
+        <briefdescription>
+<para>Defines the sudoku_game. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="929" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sudoku_data_1a650050b461d4e458c024ab20fc9c7fb6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuData.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+<para>The Awake. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="934" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="934" bodyend="942"/>
+        <references refid="class_sudoku_data_1a1f75d0b9c9888bfcafaa007dad11b4ee" compoundref="_sudoku_data_8cs" startline="896">Instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_data_1a17370fb37b201790f7bf3d458b7538e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuData.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>The Start. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="947" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="947" bodyend="953"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_data_1aeaa58345487794ccdcc64ddb5d0dc364" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuData.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>The Update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="958" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="958" bodyend="960"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines the <ref refid="class_sudoku_data" kindref="compound">SudokuData</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="167">
+        <label>SudokuData</label>
+        <link refid="class_sudoku_data"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="169">
+        <label>SudokuData</label>
+        <link refid="class_sudoku_data"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="170">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" line="892" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuData.cs" bodystart="891" bodyend="961"/>
+    <listofallmembers>
+      <member refid="class_sudoku_data_1a650050b461d4e458c024ab20fc9c7fb6" prot="package" virt="non-virtual"><scope>SudokuData</scope><name>Awake</name></member>
+      <member refid="class_sudoku_data_1a1f75d0b9c9888bfcafaa007dad11b4ee" prot="public" virt="non-virtual"><scope>SudokuData</scope><name>Instance</name></member>
+      <member refid="class_sudoku_data_1a17370fb37b201790f7bf3d458b7538e5" prot="package" virt="non-virtual"><scope>SudokuData</scope><name>Start</name></member>
+      <member refid="class_sudoku_data_1aedb0063fdca17199539c92e1526511e4" prot="public" virt="non-virtual"><scope>SudokuData</scope><name>sudoku_game</name></member>
+      <member refid="class_sudoku_data_1aeaa58345487794ccdcc64ddb5d0dc364" prot="package" virt="non-virtual"><scope>SudokuData</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sudoku_grid" kind="class" prot="public">
+    <compoundname>SudokuGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sudoku_grid_1a085858666b426165bd06fb117eacbc23" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SudokuGrid.columns</definition>
+        <argsstring></argsstring>
+        <name>columns</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="7" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</referencedby>
+        <referencedby refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1ab842ccf3900e8785c2c801e94b70c598" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SudokuGrid.rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="8" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1afd779b667207007bd0bc76d335234901" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SudokuGrid.square_offset</definition>
+        <argsstring></argsstring>
+        <name>square_offset</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="9" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1ac513a0a5270bd889e8490caa7035a413" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SudokuGrid.grid_square</definition>
+        <argsstring></argsstring>
+        <name>grid_square</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="10" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</referencedby>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1a02b7d232faea691feb464a942c4f8a2f" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SudokuGrid.start_position</definition>
+        <argsstring></argsstring>
+        <name>start_position</name>
+        <initializer>= new Vector2(0.0f, 0.0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="11" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1a6fc5a4e21c7d7f814db6ee993f59ec5d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SudokuGrid.square_scale</definition>
+        <argsstring></argsstring>
+        <name>square_scale</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="12" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1ac544483048e44ded02c16f360a2ac45d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SudokuGrid.square_gap</definition>
+        <argsstring></argsstring>
+        <name>square_gap</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="13" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1aa6751698c3ae9f0a05fece3f319767d3" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color SudokuGrid.line_highlight_color</definition>
+        <argsstring></argsstring>
+        <name>line_highlight_color</name>
+        <initializer>= Color.red</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="14" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" compoundref="_sudoku_grid_8cs" startline="204" endline="215">OnSquareSelected</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sudoku_grid_1af2d199944c139f760f3411e842837052" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; SudokuGrid.grid_squares_</definition>
+        <argsstring></argsstring>
+        <name>grid_squares_</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="16" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" compoundref="_sudoku_grid_8cs" startline="217" endline="228">CheckBoardCompleted</referencedby>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">OnDisable</referencedby>
+        <referencedby refid="class_sudoku_grid_1aeeac59ef90b422bd3837771a56f72e58" compoundref="_sudoku_grid_8cs" startline="44" endline="50">SetGridNotes</referencedby>
+        <referencedby refid="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" compoundref="_sudoku_grid_8cs" startline="143" endline="151">setGridSquareData</referencedby>
+        <referencedby refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</referencedby>
+        <referencedby refid="class_sudoku_grid_1a1f022aac634b4798458f44b32fe6cae3" compoundref="_sudoku_grid_8cs" startline="192" endline="202">SetSquaresColor</referencedby>
+        <referencedby refid="class_sudoku_grid_1a854f39bd3dd8834b09559309071585cd" compoundref="_sudoku_grid_8cs" startline="230" endline="238">SolveSudoku</referencedby>
+        <referencedby refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SudokuGrid.selected_grid_data</definition>
+        <argsstring></argsstring>
+        <name>selected_grid_data</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="17" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">OnDisable</referencedby>
+        <referencedby refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" compoundref="_sudoku_grid_8cs" startline="34" endline="42">SetGridFormFile</referencedby>
+        <referencedby refid="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" compoundref="_sudoku_grid_8cs" startline="132" endline="142">SetGridNumber</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="21" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="21" bodyend="32"/>
+        <references refid="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" compoundref="_sudoku_grid_8cs" startline="59" endline="65">CreateGrid</references>
+        <references refid="class_game_settings_1ad9169bbb8aa514539858e7cdc8b75198" compoundref="_game_settings_8cs" startline="52" endline="55">GameSettings.GetContinuePreviousGame</references>
+        <references refid="class_game_settings_1a4bc630d8c9490a4cfbabf89118dbb5cf" compoundref="_game_settings_8cs" startline="84" endline="96">GameSettings.GetGameMode</references>
+        <references refid="class_sudoku_grid_1ac513a0a5270bd889e8490caa7035a413" compoundref="_sudoku_grid_8cs" startline="10">grid_square</references>
+        <references refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" compoundref="_game_settings_8cs" startline="16">GameSettings.Instance</references>
+        <references refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" compoundref="_sudoku_grid_8cs" startline="34" endline="42">SetGridFormFile</references>
+        <references refid="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" compoundref="_sudoku_grid_8cs" startline="132" endline="142">SetGridNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SetGridFormFile</definition>
+        <argsstring>()</argsstring>
+        <name>SetGridFormFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="34" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="34" bodyend="42"/>
+        <references refid="class_config_1a61c2ce213410d87982a4112082cea59a" compoundref="_config_8cs" startline="74" endline="105">Config.GetGridNotes</references>
+        <references refid="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" compoundref="_sudoku_grid_8cs" startline="17">selected_grid_data</references>
+        <references refid="class_sudoku_grid_1aeeac59ef90b422bd3837771a56f72e58" compoundref="_sudoku_grid_8cs" startline="44" endline="50">SetGridNotes</references>
+        <references refid="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" compoundref="_sudoku_grid_8cs" startline="143" endline="151">setGridSquareData</references>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1aeeac59ef90b422bd3837771a56f72e58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SetGridNotes</definition>
+        <argsstring>(Dictionary&lt; int, List&lt; int &gt;&gt; notes)</argsstring>
+        <name>SetGridNotes</name>
+        <param>
+          <type>Dictionary&lt; int, List&lt; int &gt;&gt;</type>
+          <declname>notes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="44" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="44" bodyend="50"/>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <referencedby refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" compoundref="_sudoku_grid_8cs" startline="34" endline="42">SetGridFormFile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a53215de8f4165f60565fe05a3e0cb4b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="53" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.CreateGrid</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="59" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="59" bodyend="65"/>
+        <references refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" compoundref="_sudoku_grid_8cs" startline="90" endline="130">SetSquarePosition</references>
+        <references refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" compoundref="_sudoku_grid_8cs" startline="68" endline="88">spawnGridSquares</references>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.spawnGridSquares</definition>
+        <argsstring>()</argsstring>
+        <name>spawnGridSquares</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="68" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="68" bodyend="88"/>
+        <references refid="class_sudoku_grid_1a085858666b426165bd06fb117eacbc23" compoundref="_sudoku_grid_8cs" startline="7">columns</references>
+        <references refid="class_sudoku_grid_1ac513a0a5270bd889e8490caa7035a413" compoundref="_sudoku_grid_8cs" startline="10">grid_square</references>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <references refid="class_sudoku_grid_1ab842ccf3900e8785c2c801e94b70c598" compoundref="_sudoku_grid_8cs" startline="8">rows</references>
+        <references refid="class_sudoku_grid_1a6fc5a4e21c7d7f814db6ee993f59ec5d" compoundref="_sudoku_grid_8cs" startline="12">square_scale</references>
+        <referencedby refid="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" compoundref="_sudoku_grid_8cs" startline="59" endline="65">CreateGrid</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SetSquarePosition</definition>
+        <argsstring>()</argsstring>
+        <name>SetSquarePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="90" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="90" bodyend="130"/>
+        <references refid="class_sudoku_grid_1a085858666b426165bd06fb117eacbc23" compoundref="_sudoku_grid_8cs" startline="7">columns</references>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <references refid="class_sudoku_grid_1ac544483048e44ded02c16f360a2ac45d" compoundref="_sudoku_grid_8cs" startline="13">square_gap</references>
+        <references refid="class_sudoku_grid_1afd779b667207007bd0bc76d335234901" compoundref="_sudoku_grid_8cs" startline="9">square_offset</references>
+        <references refid="class_sudoku_grid_1a02b7d232faea691feb464a942c4f8a2f" compoundref="_sudoku_grid_8cs" startline="11">start_position</references>
+        <referencedby refid="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" compoundref="_sudoku_grid_8cs" startline="59" endline="65">CreateGrid</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SetGridNumber</definition>
+        <argsstring>(string level)</argsstring>
+        <name>SetGridNumber</name>
+        <param>
+          <type>string</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="132" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="132" bodyend="142"/>
+        <references refid="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" compoundref="_sudoku_grid_8cs" startline="17">selected_grid_data</references>
+        <references refid="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" compoundref="_sudoku_grid_8cs" startline="143" endline="151">setGridSquareData</references>
+        <referencedby refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" compoundref="_sudoku_grid_8cs" startline="21" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.setGridSquareData</definition>
+        <argsstring>(SudokuData.SudokuBoardData data)</argsstring>
+        <name>setGridSquareData</name>
+        <param>
+          <type><ref refid="struct_sudoku_data_1_1_sudoku_board_data" kindref="compound">SudokuData.SudokuBoardData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="143" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="143" bodyend="151"/>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <referencedby refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" compoundref="_sudoku_grid_8cs" startline="34" endline="42">SetGridFormFile</referencedby>
+        <referencedby refid="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" compoundref="_sudoku_grid_8cs" startline="132" endline="142">SetGridNumber</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a34ab152871d62c1e2042b4f1c972b6c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="153" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="153" bodyend="157"/>
+        <references refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" compoundref="_sudoku_grid_8cs" startline="217" endline="228">CheckBoardCompleted</references>
+        <references refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" compoundref="_sudoku_grid_8cs" startline="204" endline="215">OnSquareSelected</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="159" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="159" bodyend="190"/>
+        <references refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" compoundref="_sudoku_grid_8cs" startline="217" endline="228">CheckBoardCompleted</references>
+        <references refid="class_lives_1a43ccfcce2521b1caba9d8ac1517111e5" compoundref="_lives_8cs" startline="42" endline="45">Lives.GetErrorNumber</references>
+        <references refid="class_game_settings_1a579460014a2eba6bc47b6aa7e9eac60c" compoundref="_game_settings_8cs" startline="42" endline="45">GameSettings.GetExitAfterWon</references>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <references refid="class_lives_1a5a2cf0f3d48cd4f08cdfdac75b7700b3" compoundref="_lives_8cs" startline="14">Lives.instance</references>
+        <references refid="class_game_settings_1a3f5030540ae4dd3a5526d4095269b8d6" compoundref="_game_settings_8cs" startline="16">GameSettings.Instance</references>
+        <references refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" compoundref="_sudoku_grid_8cs" startline="204" endline="215">OnSquareSelected</references>
+        <references refid="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" compoundref="_sudoku_grid_8cs" startline="17">selected_grid_data</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a1f022aac634b4798458f44b32fe6cae3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SetSquaresColor</definition>
+        <argsstring>(int[] data, Color col)</argsstring>
+        <name>SetSquaresColor</name>
+        <param>
+          <type>int[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="192" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="192" bodyend="202"/>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <referencedby refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" compoundref="_sudoku_grid_8cs" startline="204" endline="215">OnSquareSelected</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.CheckBoardCompleted</definition>
+        <argsstring>()</argsstring>
+        <name>CheckBoardCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="217" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="217" bodyend="228"/>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">OnDisable</referencedby>
+        <referencedby refid="class_sudoku_grid_1a34ab152871d62c1e2042b4f1c972b6c0" compoundref="_sudoku_grid_8cs" startline="153" endline="157">OnEnable</referencedby>
+        <referencedby refid="class_sudoku_grid_1a854f39bd3dd8834b09559309071585cd" compoundref="_sudoku_grid_8cs" startline="230" endline="238">SolveSudoku</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.OnSquareSelected</definition>
+        <argsstring>(int square_index)</argsstring>
+        <name>OnSquareSelected</name>
+        <param>
+          <type>int</type>
+          <declname>square_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="204" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="204" bodyend="215"/>
+        <references refid="class_line_indicator_1aeb20342c5beff0bc70ffe166969b4f12" compoundref="_line_indicator_8cs" startline="146" endline="149">LineIndicator.GetAllSquareIndexes</references>
+        <references refid="class_line_indicator_1a6bfdcb8a8a9a1a738a4e7bf5f17039c8" compoundref="_line_indicator_8cs" startline="7">LineIndicator.instance</references>
+        <references refid="class_sudoku_grid_1aa6751698c3ae9f0a05fece3f319767d3" compoundref="_sudoku_grid_8cs" startline="14">line_highlight_color</references>
+        <references refid="class_sudoku_grid_1a1f022aac634b4798458f44b32fe6cae3" compoundref="_sudoku_grid_8cs" startline="192" endline="202">SetSquaresColor</references>
+        <referencedby refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" compoundref="_sudoku_grid_8cs" startline="159" endline="190">OnDisable</referencedby>
+        <referencedby refid="class_sudoku_grid_1a34ab152871d62c1e2042b4f1c972b6c0" compoundref="_sudoku_grid_8cs" startline="153" endline="157">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_grid_1a854f39bd3dd8834b09559309071585cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SudokuGrid.SolveSudoku</definition>
+        <argsstring>()</argsstring>
+        <name>SolveSudoku</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="230" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="230" bodyend="238"/>
+        <references refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" compoundref="_sudoku_grid_8cs" startline="217" endline="228">CheckBoardCompleted</references>
+        <references refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" compoundref="_sudoku_grid_8cs" startline="16">grid_squares_</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="175">
+        <label>SudokuGrid</label>
+        <link refid="class_sudoku_grid"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="177">
+        <label>SudokuGrid</label>
+        <link refid="class_sudoku_grid"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" line="6" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/SudokuGrid.cs" bodystart="5" bodyend="240"/>
+    <listofallmembers>
+      <member refid="class_sudoku_grid_1ac56e302a72535bfeca9e45b1a7be2803" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>CheckBoardCompleted</name></member>
+      <member refid="class_sudoku_grid_1a085858666b426165bd06fb117eacbc23" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>columns</name></member>
+      <member refid="class_sudoku_grid_1a2da3126b5bd6028f86416dd65d6f02f7" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>CreateGrid</name></member>
+      <member refid="class_sudoku_grid_1ac513a0a5270bd889e8490caa7035a413" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>grid_square</name></member>
+      <member refid="class_sudoku_grid_1af2d199944c139f760f3411e842837052" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>grid_squares_</name></member>
+      <member refid="class_sudoku_grid_1aa6751698c3ae9f0a05fece3f319767d3" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>line_highlight_color</name></member>
+      <member refid="class_sudoku_grid_1a13f82f7796b8ebf8642694b626db68a8" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>OnDisable</name></member>
+      <member refid="class_sudoku_grid_1a34ab152871d62c1e2042b4f1c972b6c0" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>OnEnable</name></member>
+      <member refid="class_sudoku_grid_1a671076e6ecb25d9a24ce5e309c90296c" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>OnSquareSelected</name></member>
+      <member refid="class_sudoku_grid_1ab842ccf3900e8785c2c801e94b70c598" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>rows</name></member>
+      <member refid="class_sudoku_grid_1a64b1cd335c770cc7aec2b36a7aa17290" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>selected_grid_data</name></member>
+      <member refid="class_sudoku_grid_1aa82153c5da2a33b49898376f1de48ea2" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>SetGridFormFile</name></member>
+      <member refid="class_sudoku_grid_1aeeac59ef90b422bd3837771a56f72e58" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>SetGridNotes</name></member>
+      <member refid="class_sudoku_grid_1a2a7237c6a3b121f5481be824404ba465" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>SetGridNumber</name></member>
+      <member refid="class_sudoku_grid_1ab92e26de97b7d6f475d60b9e2d4cc1c8" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>setGridSquareData</name></member>
+      <member refid="class_sudoku_grid_1ac8a7eafc73f9e89067fd2812ef5abd2b" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>SetSquarePosition</name></member>
+      <member refid="class_sudoku_grid_1a1f022aac634b4798458f44b32fe6cae3" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>SetSquaresColor</name></member>
+      <member refid="class_sudoku_grid_1a854f39bd3dd8834b09559309071585cd" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>SolveSudoku</name></member>
+      <member refid="class_sudoku_grid_1af666e1d2eb2a9c7c201bc4e9b912d520" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>spawnGridSquares</name></member>
+      <member refid="class_sudoku_grid_1ac544483048e44ded02c16f360a2ac45d" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>square_gap</name></member>
+      <member refid="class_sudoku_grid_1afd779b667207007bd0bc76d335234901" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>square_offset</name></member>
+      <member refid="class_sudoku_grid_1a6fc5a4e21c7d7f814db6ee993f59ec5d" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>square_scale</name></member>
+      <member refid="class_sudoku_grid_1af96b490efcfb7f58316b3ab6c016672b" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>Start</name></member>
+      <member refid="class_sudoku_grid_1a02b7d232faea691feb464a942c4f8a2f" prot="public" virt="non-virtual"><scope>SudokuGrid</scope><name>start_position</name></member>
+      <member refid="class_sudoku_grid_1a53215de8f4165f60565fe05a3e0cb4b7" prot="private" virt="non-virtual"><scope>SudokuGrid</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

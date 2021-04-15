@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_over_menu" kind="class" prot="public">
+    <compoundname>GameOverMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_over_menu_1a9f3de27940386233928f82b1e0915bcb" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text GameOverMenu.textClock</definition>
+        <argsstring></argsstring>
+        <name>textClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" line="8" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_over_menu_1a8565cc752b69bed8f0f646a9c788f9c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOverMenu.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" line="11" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>GameOverMenu</label>
+        <link refid="class_game_over_menu"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>GameOverMenu</label>
+        <link refid="class_game_over_menu"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" line="7" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/GameOverMenu.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_game_over_menu_1a8565cc752b69bed8f0f646a9c788f9c3" prot="private" virt="non-virtual"><scope>GameOverMenu</scope><name>Start</name></member>
+      <member refid="class_game_over_menu_1a9f3de27940386233928f82b1e0915bcb" prot="public" virt="non-virtual"><scope>GameOverMenu</scope><name>textClock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

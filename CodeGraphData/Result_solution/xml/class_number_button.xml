@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_number_button" kind="class" prot="public">
+    <compoundname>NumberButton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Selectable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISubmitHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerUpHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_number_button_1a503208d8b1c7ad859c09435be760d5cc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NumberButton.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="10" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_number_button_1a0c6f51d5c0f35acc91e67ded2d111029" compoundref="_number_button_8cs" startline="24" endline="27">OnPointerClick</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_number_button_1a2b69262457d334e015749bf3e8ca4db0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberButton.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="13" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_number_button_1ab00b327d22a95e56c4fbc5529a89001c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberButton.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="19" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_number_button_1a0c6f51d5c0f35acc91e67ded2d111029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberButton.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="24" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="24" bodyend="27"/>
+        <references refid="class_number_button_1a503208d8b1c7ad859c09435be760d5cc" compoundref="_number_button_8cs" startline="10">value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_number_button_1af056ba107da6aeea3ecef7341c9baa0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumberButton.OnSubmit</definition>
+        <argsstring>(BaseEventData eventData)</argsstring>
+        <name>OnSubmit</name>
+        <param>
+          <type>BaseEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="29" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>ISubmitHandler</label>
+      </node>
+      <node id="117">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="115">
+        <label>NumberButton</label>
+        <link refid="class_number_button"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Selectable</label>
+      </node>
+      <node id="120">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="119">
+        <label>IPointerUpHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>ISubmitHandler</label>
+      </node>
+      <node id="123">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="121">
+        <label>NumberButton</label>
+        <link refid="class_number_button"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>Selectable</label>
+      </node>
+      <node id="126">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="125">
+        <label>IPointerUpHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" line="9" column="1" bodyfile="D:/GitHub/2DPuzzleGame/Assets/Scripts/NumberButton.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_number_button_1a0c6f51d5c0f35acc91e67ded2d111029" prot="public" virt="non-virtual"><scope>NumberButton</scope><name>OnPointerClick</name></member>
+      <member refid="class_number_button_1af056ba107da6aeea3ecef7341c9baa0e" prot="public" virt="non-virtual"><scope>NumberButton</scope><name>OnSubmit</name></member>
+      <member refid="class_number_button_1a2b69262457d334e015749bf3e8ca4db0" prot="private" virt="non-virtual"><scope>NumberButton</scope><name>Start</name></member>
+      <member refid="class_number_button_1ab00b327d22a95e56c4fbc5529a89001c" prot="private" virt="non-virtual"><scope>NumberButton</scope><name>Update</name></member>
+      <member refid="class_number_button_1a503208d8b1c7ad859c09435be760d5cc" prot="public" virt="non-virtual"><scope>NumberButton</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
