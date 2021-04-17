@@ -132,7 +132,8 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
 
         if(has_default_value_)
         {
-            number_text.GetComponent<Text>().fontStyle = FontStyle.Bold;
+            number_text.GetComponent<Text>().color = Color.red;
+            //FontStyle.Bold
         }
     }
 
