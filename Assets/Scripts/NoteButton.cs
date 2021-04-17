@@ -23,7 +23,7 @@ public class NoteButton : Selectable, IPointerClickHandler
         if (active_)
             GetComponent<Image>().sprite = on_image;
         else
-            GetComponent<Image>().sprite = on_image;
+            GetComponent<Image>().sprite = off_image;
         GameEvents.OnNotesActiveMethod(active_);
     }
 }
