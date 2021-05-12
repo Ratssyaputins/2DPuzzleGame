@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class LineIndicator : MonoBehaviour
 {
-    public static LineIndicator instance; //
+    public static LineIndicator instance; 
 
-    private int[,] line_data = new int[9, 9]
+    private int[,] line_data = new int[9, 9] //square array for horizontal index
     {   {   0,1,2,    3,4,5,    6,7,8},
         {9,10,11,  12,13,14, 15,16,17},
         {18,19,20, 21,22,23, 24,25,26},
@@ -21,7 +21,7 @@ public class LineIndicator : MonoBehaviour
 
     };
 
-    private int[] line_data_falt = new int[81]
+    private int[] line_data_falt = new int[81]  //the flat array
     {   
         0,1,2,    3,4,5,    6,7,8,
         9,10,11,  12,13,14, 15,16,17,
@@ -57,11 +57,8 @@ public class LineIndicator : MonoBehaviour
 
         {60,61,62, 69,70,71,  78,79,80}
 
-
-
-
     };
-    void Awake()
+    void Awake() //this ensures only one indicator exists at any one time
     {
         if (instance == null)
             instance = this;
