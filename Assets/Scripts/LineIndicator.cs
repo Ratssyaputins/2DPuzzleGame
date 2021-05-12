@@ -124,7 +124,7 @@ public class LineIndicator : MonoBehaviour
         {
             for (int col = 0; col < 9; col++)
             {
-                if (line_data[row, col] == square_index)
+                if (square_data[row, col] == square_index)
                 {
                     pos_row = row;
                     
