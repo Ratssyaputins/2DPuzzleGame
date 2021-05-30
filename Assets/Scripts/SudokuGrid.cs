@@ -231,7 +231,7 @@ public class SudokuGrid : MonoBehaviour
         }
     }
 
-        private void CheckBoardCompleted()
+    private void CheckBoardCompleted()
     {
         foreach(var square in grid_squares_)
         {

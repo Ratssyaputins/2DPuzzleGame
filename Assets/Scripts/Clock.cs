@@ -30,7 +30,7 @@ public class Clock : MonoBehaviour
         else 
             delta_time = 0;
 
-        delta_time = 0;
+        //delta_time = 0;
 
     }
 
