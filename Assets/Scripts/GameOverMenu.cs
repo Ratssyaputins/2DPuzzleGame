@@ -7,7 +7,7 @@ public class GameOverMenu : MonoBehaviour
 {
     public Text textClock;
 
-    // Start is called before the first frame update
+    // Get the current time of the game to display in game over menu
     void Start()
     {
         textClock.text = Clock.instance.GetCurrentTimeText().text;

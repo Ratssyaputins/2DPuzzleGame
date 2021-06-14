@@ -8,6 +8,7 @@ public class Pause : MonoBehaviour
 
     public GameObject pausePanel;
     public GameObject optionsPanel;
+    //  when escape key is pressed set the pause panel to true else unpause
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -24,7 +25,7 @@ public class Pause : MonoBehaviour
                 
         }
     }
-
+    //method for unpausing the game
     public void Unpause()
     {
         Time.timeScale = 1;

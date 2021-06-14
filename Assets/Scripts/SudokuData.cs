@@ -11,6 +11,7 @@ public class SudokuEasyData : MonoBehaviour
     /// The getData.
     /// </summary>
     /// <returns>The <see cref="List{SudokuData.SudokuBoardData}"/>.</returns>
+    //return the list of data
     public static List<SudokuData.SudokuBoardData> getData()
     {
         List<SudokuData.SudokuBoardData> data = new List<SudokuData.SudokuBoardData>();
@@ -924,7 +925,7 @@ public class SudokuData : MonoBehaviour
     }
 
     /// <summary>
-    /// Defines the sudoku_game.
+    /// Defines the sudoku_game.This is the constructor for the grid data
     /// </summary>
     public Dictionary<string, List<SudokuBoardData>> sudoku_game = new Dictionary<string, List<SudokuBoardData>>();
 
@@ -942,7 +943,7 @@ public class SudokuData : MonoBehaviour
     }
 
     /// <summary>
-    /// The Start.
+    /// populate the game for each level of the game
     /// </summary>
     internal void Start()
     {

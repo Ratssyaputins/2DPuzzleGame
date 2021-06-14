@@ -18,7 +18,9 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
     private bool has_default_value_ = false;
     private bool has_wrong_value_ = false;
 
+    //returns the number selected
     public int GetSquareNumber() { return number_; }
+    //  checks the number is correct
     public bool IsCorrectNumberSet() { return number_ == correct_number_;}
 
     public bool HasWrongValue() { return has_wrong_value_; }
@@ -28,6 +30,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
 
 
     public bool IsSelected() { return selected_; }
+    //set the square index
     public void SetSquareIndex(int index)
     {
         square_index_ = index;
@@ -45,7 +48,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
 
         }
     }
-
+    //checks the correct number if number is wrong highlighted the check red
     public void SetCorrectNumber()
     {
         number_ = correct_number_;
@@ -64,7 +67,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         else
             SetClearEmptyNotes();
     }
-
+    //get the note numbers in the list
     public List<string> GetSquareNotes()
     {
         List<string> notes = new List<string>();
@@ -75,7 +78,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         }
         return notes;
     }
-
+    //clear the note numbers
     private void SetClearEmptyNotes()
     {
         foreach (var number in number_notes)
@@ -84,7 +87,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
                 number.GetComponent<Text>().text = " ";
         }
     }
-    
+    //set the note numbers
     private void SetNoteNumberValue(int value)
     {
         foreach(var number in number_notes)
@@ -143,7 +146,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
         DisplayText();
 
     }
-
+    //calls the SquareSelected method/event
     public void OnPointerClick(PointerEventData eventData)
     {
         selected_ = true;
@@ -154,7 +157,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
     {
 
     }
-
+    //subscribe to OnUpdateSquareNumber
     public void OnEnable()
     {
         GameEvents.OnUpdateSquareNumber += OnSetNumber;
@@ -197,6 +200,7 @@ public class GridSquare : Selectable, IPointerClickHandler, ISubmitHandler, IPoi
 
         }
     }
+    //event handler for UpdateSquareMethod
     public void OnSetNumber(int number)
     {
         if (selected_ && has_default_value_ == false)

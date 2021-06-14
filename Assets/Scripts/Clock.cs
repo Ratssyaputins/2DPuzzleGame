@@ -57,16 +57,17 @@ public class Clock : MonoBehaviour
         }
     }
 
+    //Edit the display time
     string LeadingZero(int n)
     {
         return n.ToString().PadLeft(2, '0');
     }
-
+    //Stop time at end of game
     public void OnGameOver()
     {
         stop_clock_ = true;
     }
-
+    //Subscribes to the game Over event
     private void OnEnable()
     {
         GameEvents.OnGameOver += OnGameOver;
@@ -80,7 +81,7 @@ public class Clock : MonoBehaviour
     {
         return instance.delta_time.ToString();
     }
-
+    //return the text clock variable
     public Text GetCurrentTimeText()
     {
         return textClock;

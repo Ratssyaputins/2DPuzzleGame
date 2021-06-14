@@ -39,7 +39,7 @@ public class MenuButtons : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
-
+    //activates and deactivates the object that is passed thru for the relevant button
     public void ActiveObject(GameObject obj)
     {
         obj.SetActive(true);

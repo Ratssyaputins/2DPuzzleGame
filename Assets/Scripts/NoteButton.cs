@@ -11,12 +11,12 @@ public class NoteButton : Selectable, IPointerClickHandler
 
     private bool active_;
 
-    // Start is called before the first frame update
+    // sets default at start is false for notes
     void Start()
     {
         active_ = false;
     }
-
+    //  sets off onPointerClick on input so that the image is retrieved for activating notes and vice versa.Initiates OnNotesActiveMethod in the GameEvents Class.
     public void OnPointerClick(PointerEventData eventData)
     {
         active_ = !active_;

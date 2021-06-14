@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class LineIndicator : MonoBehaviour
 {
-    public static LineIndicator instance; 
-
+    
+    public static LineIndicator instance;
+    
     private int[,] line_data = new int[9, 9] //square array for horizontal index
     {   {   0,1,2,    3,4,5,    6,7,8},
         {9,10,11,  12,13,14, 15,16,17},
@@ -20,7 +21,7 @@ public class LineIndicator : MonoBehaviour
         {72,73,74, 75,76,77, 78,79,80}
 
     };
-
+    
     private int[] line_data_falt = new int[81]  //the flat array
     {   
         0,1,2,    3,4,5,    6,7,8,
@@ -58,6 +59,7 @@ public class LineIndicator : MonoBehaviour
         {60,61,62, 69,70,71,  78,79,80}
 
     };
+    //initiates a static instance
     void Awake() //this ensures only one indicator exists at any one time
     {
         if (instance == null)
@@ -66,8 +68,8 @@ public class LineIndicator : MonoBehaviour
             Destroy(this);
 
     }
-
-    private(int, int) GetSquarePosition(int square_index)
+    //Get the position of the grid  the  player is on
+    private (int, int) GetSquarePosition(int square_index)
     {
         int pos_row = -1;
         int pos_col = -1;
@@ -85,6 +87,7 @@ public class LineIndicator : MonoBehaviour
 
         return (pos_row, pos_col);
     }
+    //Obtain the horizontal line of the board
     public int[] GetHorizontalLine(int square_index)
     {
         int[] line = new int[9];
@@ -99,7 +102,7 @@ public class LineIndicator : MonoBehaviour
 
         return line;
     }
-    
+    //Obtain the vertical line of the board
     public int[] GetVerticalLine(int square_index)
     {
         int[] line = new int[9];
@@ -114,7 +117,7 @@ public class LineIndicator : MonoBehaviour
 
         return line;
     }
-
+    //Obtain the square area the position is on
     public int []GetSquare(int square_index)
     {
         int[] line = new int[9];
@@ -139,7 +142,7 @@ public class LineIndicator : MonoBehaviour
 
         return line;
     }
-
+    //return the flat array
     public int[] GetAllSquareIndexes()
     {
         return line_data_falt;

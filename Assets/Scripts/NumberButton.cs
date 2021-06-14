@@ -20,12 +20,12 @@ public class NumberButton : Selectable, IPointerClickHandler,ISubmitHandler, IPo
     {
         
     }
-    
+    //   method to listen to button click
     public void OnPointerClick(PointerEventData eventData)
     {
         GameEvents.UpdateSquareNumberMethod(value);
     }
-    
+    //method to react to button click
     public void OnSubmit(BaseEventData eventData)
     {
         

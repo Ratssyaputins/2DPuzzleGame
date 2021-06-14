@@ -54,7 +54,7 @@ public class Lives : MonoBehaviour
         }
         CheckForGameOver();
     }
-
+    //if lives are over initiating an event
     private void CheckForGameOver()
     {
         if(lives_ <= 0)

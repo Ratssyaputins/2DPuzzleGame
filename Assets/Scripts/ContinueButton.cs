@@ -9,11 +9,13 @@ public class ContinueButton : MonoBehaviour
     public Text timeText;
     public Text levelText;
 
+    //converts int to string for time
     string LeadingZero(int n)
     {
         return n.ToString().PadLeft(2, '0');
     }
-    // Start is called before the first frame update
+   
+    //if file exist it will load the game otherwise new game
     void Start()
     {
         if(Config.GameDataFileExist() == false)
@@ -37,7 +39,7 @@ public class ContinueButton : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    // sets the saved game level
     public void SetGameData()
     {
         GameSettings.Instance.SetGameMode(Config.ReadBoardLevel());

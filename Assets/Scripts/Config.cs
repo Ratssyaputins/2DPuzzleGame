@@ -21,6 +21,7 @@ public class Config : MonoBehaviour
         File.Delete(path);
     }
 
+    //Saves current data when game is stopped
     public static void SaveBoardData(SudokuData.SudokuBoardData board_data, string level, int board_index, int error_number, Dictionary<string, List<string>> grid_notes)
     {
         File.WriteAllText(path, string.Empty);
@@ -71,6 +72,7 @@ public class Config : MonoBehaviour
         writer.Close();
     }
 
+    //reads any  grid notes and returns it
     public static Dictionary<int, List<int>> GetGridNotes()
     {
         Dictionary<int, List<int>> grid_notes = new Dictionary<int, List<int>>();
@@ -103,7 +105,7 @@ public class Config : MonoBehaviour
         file.Close();
         return grid_notes;
     }
-
+    //  reads and returns the board level from file
     public static string ReadBoardLevel()
     {
         string line;
@@ -122,7 +124,7 @@ public class Config : MonoBehaviour
         file.Close();
         return level;
     }
-
+    //read the grid data from the file and return
     public static SudokuData.SudokuBoardData ReadGridData()
     {
         string line;
@@ -173,7 +175,7 @@ public class Config : MonoBehaviour
         return new SudokuData.SudokuBoardData(unsolved_data, solved_data);
 
     }
-
+    //read the specific level game index for the level and return it
     public static int ReadGameBoardLevel()
     {
         int level = -1;
@@ -191,7 +193,7 @@ public class Config : MonoBehaviour
         file.Close();
         return level;
     }
-
+    //read game time  and return it
     public static float ReadGameTime()
     {
         float time = -1.0f;
@@ -210,7 +212,7 @@ public class Config : MonoBehaviour
         file.Close();
         return time;
     }
-
+    //read the current error number
     public static int ErrorNumber()
     {
         int errors = 0;
@@ -229,7 +231,7 @@ public class Config : MonoBehaviour
         file.Close();
         return errors;
     }
-
+    //return existing saved file
     public static bool GameDataFileExist()
     {
         return File.Exists(path);

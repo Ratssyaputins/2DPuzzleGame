@@ -18,7 +18,7 @@ public class SudokuGrid : MonoBehaviour
     private int selected_grid_data = -1;
 
 
-    // Start is called before the first frame update
+    //   initiates the grid or continues a saved game
     void Start()
     {
         if (grid_square.GetComponent<GridSquare>() == null)
@@ -31,7 +31,7 @@ public class SudokuGrid : MonoBehaviour
             SetGridNumber(GameSettings.Instance.GetGameMode());
 
     }
-
+    //set the level data of the game
     void SetGridFormFile()
     {
         string level = GameSettings.Instance.GetGameMode();
@@ -41,7 +41,7 @@ public class SudokuGrid : MonoBehaviour
         setGridSquareData(data);
         SetGridNotes(Config.GetGridNotes());
     }
-
+    //get any grid notes if present in saved game
     private void SetGridNotes(Dictionary<int, List<int>> notes)
     {
         foreach(var note in notes)
@@ -56,7 +56,7 @@ public class SudokuGrid : MonoBehaviour
 
     }
 
-    
+    //method for creating the grid if called
     private void CreateGrid()
     {
 
@@ -65,7 +65,8 @@ public class SudokuGrid : MonoBehaviour
         
     }
 
-  
+    //spawns each grid thru a loop
+    //set the square index
     private void spawnGridSquares()
     {
         // 0,1,2,3,4,5,6,
@@ -87,7 +88,7 @@ public class SudokuGrid : MonoBehaviour
 
 
     }
-
+    // responsible the designing and structure of the grid
     private void SetSquarePosition()
     {
         var square_rect = grid_squares_[0].GetComponent<RectTransform>(); 
@@ -129,7 +130,7 @@ public class SudokuGrid : MonoBehaviour
             column_number++;
         }
     }
-
+    //randomised the level game
     private void SetGridNumber(string level)
     {
         selected_grid_data = Random.Range(0, SudokuData.Instance.sudoku_game[level].Count);
@@ -141,6 +142,7 @@ public class SudokuGrid : MonoBehaviour
         //    square.GetComponent<GridSquare>().SetNumber(Random.Range(0, 10));
         //}
     }
+    // sets the grid data into the grid for the level
     private void setGridSquareData(SudokuData.SudokuBoardData data)
     {
         for(int index=0; index < grid_squares_.Count; index++)
@@ -151,6 +153,9 @@ public class SudokuGrid : MonoBehaviour
             
         }
     }
+    //Listens for onSelected
+    //And check game is completed on finish
+    //Save the game data
 
     private void OnEnable()
     {
@@ -202,7 +207,7 @@ public class SudokuGrid : MonoBehaviour
             }
         }
     }
-
+    //highlights are a of the selected grid
     public void OnSquareSelected(int square_index)
     {
         var horizontal_line = LineIndicator.instance.GetHorizontalLine(square_index);
@@ -243,7 +248,7 @@ public class SudokuGrid : MonoBehaviour
         }
         GameEvents.OnBoardcompletedMethod();
     }
-
+    //  not used 
     public void SolveSudoku()
     {
         foreach (var square in grid_squares_)

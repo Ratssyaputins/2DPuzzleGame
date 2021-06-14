@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class RubberButton : Selectable, IPointerClickHandler
 {
+    //initiates the rubber function
     public void OnPointerClick(PointerEventData eventData)
     {
         GameEvents.OnClearNumberMethod();
